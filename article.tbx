@@ -620,14 +620,14 @@ This is where the more advanced features of [Tinderbox][]&apos;s HTML export tem
 </rtf>
 <item ID="3358536961" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:18:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T02:24:00-04:00</attribute>
 <attribute name="Name" >Create an &quot;Internals&quot; note to contain non-exportable utility notes</attribute>
-<attribute name="ReadCount" >18</attribute>
-<attribute name="SelectionCount" >26</attribute>
+<attribute name="ReadCount" >25</attribute>
+<attribute name="SelectionCount" >33</attribute>
 <attribute name="Xpos" >5.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >6</attribute>
-<text >Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:![050-internals][]In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:![060-internals][]Notice I got a little ahead of things in the screenshot above: The next thing I want you to dois add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;</text>
+<text >Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:![050-internals][]In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:![060-internals][]I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content. Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -646,7 +646,7 @@ Select the root note of your article.  But, rather than just hitting return to c
 In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:\par
 ![060-internals][]\par
 \par
-Notice I got a little ahead of things in the screenshot above: The next thing I want you to dois add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.\par
+I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content. Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.\par
 \par
 [050-internals]: img/050-internals.png &quot;Creating the internals note&quot;\par
 [060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;}}
@@ -674,14 +674,14 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 </item>
 <item ID="3358536541" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:49:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:31:00-04:00</attribute>
-<attribute name="Name" >Use prototypes to augment notes with common details</attribute>
-<attribute name="ReadCount" >24</attribute>
-<attribute name="SelectionCount" >41</attribute>
+<attribute name="Modified" >2010-06-05T02:27:00-04:00</attribute>
+<attribute name="Name" >Using prototypes to augment notes with common details</attribute>
+<attribute name="ReadCount" >38</attribute>
+<attribute name="SelectionCount" >55</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >12</attribute>
-<text >Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been mostly invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.In Tinderbox, you can create a special kind of note called a *Prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to some of its attributes, and those values will be used as defaults for other notes created as instances of that prototype. And, if you change an attribute on a prototype, all notes using that prototype will in turn inherit the changes.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. And, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -692,9 +692,9 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been mostly invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.\par
 \par
-In Tinderbox, you can create a special kind of note called a *Prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to some of its attributes, and those values will be used as defaults for other notes created as instances of that prototype. And, if you change an attribute on a prototype, all notes using that prototype will in turn inherit the changes.\par
+In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. And, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.\par
 \par
 [github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
@@ -703,14 +703,14 @@ In Tinderbox, you can create a special kind of note called a *Prototype*. A prot
 <item ID="3358536901" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T01:51:00-04:00</attribute>
-<attribute name="Name" >Create a Prototype named *article</attribute>
-<attribute name="ReadCount" >33</attribute>
-<attribute name="SelectionCount" >47</attribute>
+<attribute name="Modified" >2010-06-05T02:31:00-04:00</attribute>
+<attribute name="Name" >Create a prototype named *article</attribute>
+<attribute name="ReadCount" >53</attribute>
+<attribute name="SelectionCount" >67</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >13</attribute>
-<text >So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.Now, either right-click and pick Rename from the menu, or hit the Enter key. (That&apos;s *Enter*, mind you, not *Return*.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:![070-article-create][]In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *Prototype*.  Now, click to select the root note of your article and summon the note details dialog with either the right-click menu or the Enter key:![080-article-prototype][]Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear—select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:![090-article-badge][]Pick one of these—I used &quot;web&quot;, myself—and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:![091-article-badge-applied][]This works because the *badge* you picked is assigned to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:![070-article-create][]In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:![080-article-prototype][]Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear—select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:![090-article-badge][]Pick one of these—I used &quot;web&quot;, myself—and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:![091-article-badge-applied][]This works because the *badge* you picked is assigned by Tinderbox to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -723,10 +723,10 @@ In Tinderbox, you can create a special kind of note called a *Prototype*. A prot
 \deftab720
 {\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.\par
 \par
-Now, either right-click and pick Rename from the menu, or hit the Enter key. (That&apos;s *Enter*, mind you, not *Return*.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:\par
+Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:\par
 ![070-article-create][]\par
 \par
-In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *Prototype*.  Now, click to select the root note of your article and summon the note details dialog with either the right-click menu or the Enter key:\par
+In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:\par
 ![080-article-prototype][]\par
 \par
 Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear\u8212 select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. \par
@@ -737,7 +737,7 @@ Just to the left of the note title for `*article`, there should be a bit of empt
 Pick one of these\u8212 I used &quot;web&quot;, myself\u8212 and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:\par
 ![091-article-badge-applied][]\par
 \par
-This works because the *badge* you picked is assigned to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. \par
+This works because the *badge* you picked is assigned by Tinderbox to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. \par
 \par
 [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;\par
 [090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;\par
@@ -752,14 +752,14 @@ This works because the *badge* you picked is assigned to the `$Badge` attribute 
 <item ID="3358536902" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T02:02:00-04:00</attribute>
-<attribute name="Name" >Create a Prototype named *section</attribute>
-<attribute name="ReadCount" >14</attribute>
-<attribute name="SelectionCount" >30</attribute>
+<attribute name="Modified" >2010-06-05T02:33:00-04:00</attribute>
+<attribute name="Name" >Create a prototype named *section</attribute>
+<attribute name="ReadCount" >21</attribute>
+<attribute name="SelectionCount" >37</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >16</attribute>
-<text >Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections under your article. Create it in the same way you created `*article`—that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:![101-section-badge][]I&apos;ve also given a &quot;folder&quot; badge to some other container notes, but those are just purely ornamental to help me keep track of what purposes various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:![110-select-sections][]Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:![111-quickstamp-sections][]With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:![112-section-applied][][112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;</text>
+<text >Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`—that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:![101-section-badge][]I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping me keep track of the purposes that various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:![110-select-sections][]Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:![111-quickstamp-sections][]With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:![112-section-applied][][112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -770,12 +770,12 @@ This works because the *badge* you picked is assigned to the `$Badge` attribute 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections under your article. Create it in the same way you created `*article`\u8212 that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`\u8212 that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.\par
 \par
 After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:\par
 ![101-section-badge][]\par
 \par
-I&apos;ve also given a &quot;folder&quot; badge to some other container notes, but those are just purely ornamental to help me keep track of what purposes various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:\par
+I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping me keep track of the purposes that various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:\par
 ![110-select-sections][]\par
 \par
 Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:\par
@@ -794,14 +794,14 @@ Almost instantly, you should see the badge from your `*section` prototype appear
 </item>
 <item ID="3358537981" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:13:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T02:14:00-04:00</attribute>
-<attribute name="Name" >Assign OnAdd rules to prototypes to auto-create *section notes.</attribute>
-<attribute name="ReadCount" >14</attribute>
-<attribute name="SelectionCount" >15</attribute>
+<attribute name="Modified" >2010-06-05T02:37:00-04:00</attribute>
+<attribute name="Name" >Assign OnAdd rules to prototypes to auto-assign *section notes.</attribute>
+<attribute name="ReadCount" >39</attribute>
+<attribute name="SelectionCount" >39</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >19</attribute>
-<text >By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, that&apos;s a manual process—wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes?As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action:    if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } The dialog should look like the following before you hit Ok:![120-onadd][]Repeat this process with the `*section` prototype.What should happen in your document now is that whenever you add a new note to your document under notes using wither the `*article` or `*section` prototype, that new child note will be assigned the `*section` prototype unless it already has one.  This is pretty powerful: It means that you can set up outlines that establish defaults over their contents without requiring manual work beyond creating notes.[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;</text>
+<text >By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processed—wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action field:    if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } The dialog should look like the following before you hit Ok:![120-onadd][]Repeat this process with the `*section` prototype.What should happen in your document now is that whenever you add a new note to your document under notes using the `*article` or `*section` prototype, that new child will be assigned to the `*section` prototype—unless it already has a prototype (eg. having been dragged in from elsewhere, or having been given a prototype by other means).  This is pretty powerful: It means that you can set up outline container notes that establish defaults over their contents without requiring manual work beyond creating children.[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -814,9 +814,9 @@ Almost instantly, you should see the badge from your `*section` prototype appear
 \deftab720
 {\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.\par
 \par
-However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, that&apos;s a manual process\u8212 wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes?\par
+However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processed\u8212 wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?\par
 \par
-As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action:\par
+As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action field:\par
 \par
     if ($Prototype=&quot;&quot;) \{ $Prototype=&quot;*section&quot; \} \par
 \par
@@ -825,7 +825,9 @@ The dialog should look like the following before you hit Ok:\par
 \par
 Repeat this process with the `*section` prototype.\par
 \par
-What should happen in your document now is that whenever you add a new note to your document under notes using wither the `*article` or `*section` prototype, that new child note will be assigned the `*section` prototype unless it already has one.  This is pretty powerful: It means that you can set up outlines that establish defaults over their contents without requiring manual work beyond creating notes.\par
+What should happen in your document now is that whenever you add a new note to your document under notes using the `*article` or `*section` prototype, that new child will be assigned to the `*section` prototype\u8212 unless it already has a prototype (eg. having been dragged in from elsewhere, or having been given a prototype by other means).  \par
+\par
+This is pretty powerful: It means that you can set up outline container notes that establish defaults over their contents without requiring manual work beyond creating children.\par
 \par
 [120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;}}
 </rtf>
@@ -833,13 +835,28 @@ What should happen in your document now is that whenever you add a new note to y
 </item>
 <item ID="3358536841" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
-<attribute name="Name" >Build templates for HTML export</attribute>
-<attribute name="ReadCount" >4</attribute>
-<attribute name="SelectionCount" >19</attribute>
+<attribute name="Modified" >2010-06-05T02:41:00-04:00</attribute>
+<attribute name="Name" >Build and enable templates for HTML export</attribute>
+<attribute name="ReadCount" >13</attribute>
+<attribute name="SelectionCount" >28</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >20</attribute>
+<text >So, first, you used Tinderbox as an outliner. Then, you started using it as a word processor, writing content on top of your outline. After that, you started augmenting outline notes with prototypes describing their respective semantic purposes (ie. `*article` vs `*section`).This is the point where you can start building automated processing and intelligence around your content.  As far as the scope of this tutorial goes, we&apos;ll limit things to producing an HTML page from your document.</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 So, first, you used Tinderbox as an outliner. Then, you started using it as a word processor, writing content on top of your outline. After that, you started augmenting outline notes with prototypes describing their respective semantic purposes (ie. `*article` vs `*section`).\par
+\par
+This is the point where you can start building automated processing and intelligence around your content.  As far as the scope of this tutorial goes, we&apos;ll limit things to producing an HTML page from your document.}}
+</rtf>
 <item ID="3358538105" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
@@ -1280,7 +1297,6 @@ What should happen in your document now is that whenever you add a new note to y
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 90 81 567 435]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537085 3358536541 3358537261 3358537262 " collapsed="3358537083 3358536961 3358536841 3358538102 3358538522 3358539241 3358538101 3358537263 "  />
-<window ID="3358537981" Creator="lmorchard" type="explorer" bounds="Rect[ 138 148 1092 777]" x="0" y="0" scale="5" split="371" expanded="3358536108 3358536123 3358537083 3358537085 3358536541 3358537261 3358537262 " collapsed="3358536961 3358536841 3358538102 3358538522 3358539241 3358538101 3358537263 "  />
+<window ID="3358536841" Creator="lmorchard" type="explorer" bounds="Rect[ 138 148 1092 777]" x="0" y="0" scale="5" split="371" expanded="3358536108 3358536123 3358537085 3358536841 3358538101 3358537261 3358537262 " collapsed="3358537083 3358536961 3358536541 3358538102 3358538522 3358539241 3358537263 "  />
 </windows>
 </tinderbox>
