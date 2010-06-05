@@ -408,7 +408,7 @@
 </attrib>
 </attrib>
 <attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="41" >
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="42" >
 </attrib>
 </attrib>
 </attrib>
@@ -459,8 +459,8 @@
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-05T00:44:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
-<attribute name="ReadCount" >153</attribute>
-<attribute name="SelectionCount" >176</attribute>
+<attribute name="ReadCount" >157</attribute>
+<attribute name="SelectionCount" >184</attribute>
 <attribute name="WindowPlace" >Rect[ 345 269 778 548]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -493,14 +493,14 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 </rtf>
 <item ID="3358537083" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T00:23:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:19:00-04:00</attribute>
 <attribute name="Name" >Writing an article in Tinderbox</attribute>
-<attribute name="ReadCount" >26</attribute>
-<attribute name="SelectionCount" >30</attribute>
+<attribute name="ReadCount" >31</attribute>
+<attribute name="SelectionCount" >37</attribute>
 <attribute name="Xpos" >2</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >2</attribute>
-<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -513,7 +513,7 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 \deftab720
 {\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
 \par
-[github]: http://github.com/lmorchard/tinderbox-article\par
+[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [eastgate]: http://www.eastgate.com/}}
 </rtf>
@@ -522,8 +522,8 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 <attribute name="Created" >2010-06-04T22:45:00-04:00</attribute>
 <attribute name="Modified" >2010-06-05T01:14:00-04:00</attribute>
 <attribute name="Name" >Outline the article&apos;s sections</attribute>
-<attribute name="ReadCount" >35</attribute>
-<attribute name="SelectionCount" >41</attribute>
+<attribute name="ReadCount" >37</attribute>
+<attribute name="SelectionCount" >44</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >3</attribute>
@@ -558,7 +558,7 @@ Continue like this, sketching out the structure of what you plan to write. You c
 <attribute name="Modified" >2010-06-05T01:13:00-04:00</attribute>
 <attribute name="Name" >Write the article&apos;s text in notes</attribute>
 <attribute name="ReadCount" >29</attribute>
-<attribute name="SelectionCount" >32</attribute>
+<attribute name="SelectionCount" >33</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >4</attribute>
@@ -595,8 +595,8 @@ The Explorer View is a split window combining both a note text editor with anoth
 <attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
 <attribute name="Modified" >2010-06-05T01:02:00-04:00</attribute>
 <attribute name="Name" >Exporting the article as HTML</attribute>
-<attribute name="ReadCount" >4</attribute>
-<attribute name="SelectionCount" >8</attribute>
+<attribute name="ReadCount" >7</attribute>
+<attribute name="SelectionCount" >13</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >5</attribute>
@@ -622,8 +622,8 @@ This is where the more advanced features of [Tinderbox][]&apos;s HTML export tem
 <attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
 <attribute name="Modified" >2010-06-05T01:18:00-04:00</attribute>
 <attribute name="Name" >Create an &quot;Internals&quot; note to contain non-exportable utility notes</attribute>
-<attribute name="ReadCount" >15</attribute>
-<attribute name="SelectionCount" >22</attribute>
+<attribute name="ReadCount" >18</attribute>
+<attribute name="SelectionCount" >26</attribute>
 <attribute name="Xpos" >5.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >6</attribute>
@@ -674,16 +674,16 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 </item>
 <item ID="3358536541" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:49:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:31:00-04:00</attribute>
 <attribute name="Name" >Use prototypes to augment notes with common details</attribute>
-<attribute name="ReadCount" >10</attribute>
-<attribute name="SelectionCount" >24</attribute>
+<attribute name="ReadCount" >24</attribute>
+<attribute name="SelectionCount" >41</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >12</attribute>
-<text ></text>
+<text >Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been mostly invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.In Tinderbox, you can create a special kind of note called a *Prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to some of its attributes, and those values will be used as defaults for other notes created as instances of that prototype. And, if you change an attribute on a prototype, all notes using that prototype will in turn inherit the changes.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
- <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="14" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
 <rtf >{\rtf1\mac
 {\fonttbl
@@ -692,81 +692,151 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs28\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 \par
-}}
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been mostly invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.\par
+\par
+In Tinderbox, you can create a special kind of note called a *Prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to some of its attributes, and those values will be used as defaults for other notes created as instances of that prototype. And, if you change an attribute on a prototype, all notes using that prototype will in turn inherit the changes.\par
+\par
+[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+[eastgate]: http://www.eastgate.com/}}
 </rtf>
 <item ID="3358536901" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:51:00-04:00</attribute>
 <attribute name="Name" >Create a Prototype named *article</attribute>
-<attribute name="SelectionCount" >13</attribute>
+<attribute name="ReadCount" >33</attribute>
+<attribute name="SelectionCount" >47</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >13</attribute>
-<item ID="3358538041" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:14:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:14:00-04:00</attribute>
-<attribute name="Name" >Assign a &quot;web&quot; badge</attribute>
-<attribute name="SelectionCount" >1</attribute>
-<attribute name="Xpos" >0</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >14</attribute>
-</item>
-</item>
-<item ID="3358537801" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:10:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:10:00-04:00</attribute>
-<attribute name="Name" >Edit the article note and use the *article prototype</attribute>
-<attribute name="SelectionCount" >5</attribute>
-<attribute name="Xpos" >2</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >15</attribute>
+<text >So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.Now, either right-click and pick Rename from the menu, or hit the Enter key. (That&apos;s *Enter*, mind you, not *Return*.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:![070-article-create][]In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *Prototype*.  Now, click to select the root note of your article and summon the note details dialog with either the right-click menu or the Enter key:![080-article-prototype][]Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear—select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:![090-article-badge][]Pick one of these—I used &quot;web&quot;, myself—and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:![091-article-badge-applied][]This works because the *badge* you picked is assigned to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.\par
+\par
+Now, either right-click and pick Rename from the menu, or hit the Enter key. (That&apos;s *Enter*, mind you, not *Return*.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:\par
+![070-article-create][]\par
+\par
+In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *Prototype*.  Now, click to select the root note of your article and summon the note details dialog with either the right-click menu or the Enter key:\par
+![080-article-prototype][]\par
+\par
+Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear\u8212 select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. \par
+\par
+Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:\par
+![090-article-badge][]\par
+\par
+Pick one of these\u8212 I used &quot;web&quot;, myself\u8212 and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:\par
+![091-article-badge-applied][]\par
+\par
+This works because the *badge* you picked is assigned to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. \par
+\par
+[091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;\par
+[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;\par
+[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;\par
+[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;\par
+\par
+[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+[eastgate]: http://www.eastgate.com/}}
+</rtf>
 </item>
 <item ID="3358536902" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T02:02:00-04:00</attribute>
 <attribute name="Name" >Create a Prototype named *section</attribute>
-<attribute name="SelectionCount" >15</attribute>
+<attribute name="ReadCount" >14</attribute>
+<attribute name="SelectionCount" >30</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >16</attribute>
-<item ID="3358538042" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:14:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:14:00-04:00</attribute>
-<attribute name="Name" >Assign a &quot;next&quot; badge</attribute>
-<attribute name="SelectionCount" >1</attribute>
-<attribute name="Xpos" >0</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >17</attribute>
-</item>
-</item>
-<item ID="3358537803" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:10:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:10:00-04:00</attribute>
-<attribute name="Name" >Select multiple section notes and use the Quickstamp tool to assign the *section prototype to all</attribute>
-<attribute name="SelectionCount" >9</attribute>
-<attribute name="Xpos" >7</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >18</attribute>
+<text >Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections under your article. Create it in the same way you created `*article`—that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:![101-section-badge][]I&apos;ve also given a &quot;folder&quot; badge to some other container notes, but those are just purely ornamental to help me keep track of what purposes various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:![110-select-sections][]Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:![111-quickstamp-sections][]With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:![112-section-applied][][112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections under your article. Create it in the same way you created `*article`\u8212 that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.\par
+\par
+After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:\par
+![101-section-badge][]\par
+\par
+I&apos;ve also given a &quot;folder&quot; badge to some other container notes, but those are just purely ornamental to help me keep track of what purposes various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:\par
+![110-select-sections][]\par
+\par
+Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:\par
+![111-quickstamp-sections][]\par
+\par
+With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.\par
+\par
+Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:\par
+![112-section-applied][]\par
+\par
+[112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;\par
+[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;\par
+[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;\par
+[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;}}
+</rtf>
 </item>
 <item ID="3358537981" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:13:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:13:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T02:14:00-04:00</attribute>
 <attribute name="Name" >Assign OnAdd rules to prototypes to auto-create *section notes.</attribute>
-<attribute name="SelectionCount" >1</attribute>
+<attribute name="ReadCount" >14</attribute>
+<attribute name="SelectionCount" >15</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >19</attribute>
+<text >By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, that&apos;s a manual process—wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes?As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action:    if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } The dialog should look like the following before you hit Ok:![120-onadd][]Repeat this process with the `*section` prototype.What should happen in your document now is that whenever you add a new note to your document under notes using wither the `*article` or `*section` prototype, that new child note will be assigned the `*section` prototype unless it already has one.  This is pretty powerful: It means that you can set up outlines that establish defaults over their contents without requiring manual work beyond creating notes.[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.\par
+\par
+However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, that&apos;s a manual process\u8212 wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes?\par
+\par
+As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action:\par
+\par
+    if ($Prototype=&quot;&quot;) \{ $Prototype=&quot;*section&quot; \} \par
+\par
+The dialog should look like the following before you hit Ok:\par
+![120-onadd][]\par
+\par
+Repeat this process with the `*section` prototype.\par
+\par
+What should happen in your document now is that whenever you add a new note to your document under notes using wither the `*article` or `*section` prototype, that new child note will be assigned the `*section` prototype unless it already has one.  This is pretty powerful: It means that you can set up outlines that establish defaults over their contents without requiring manual work beyond creating notes.\par
+\par
+[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;}}
+</rtf>
 </item>
 </item>
 <item ID="3358536841" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
 <attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
 <attribute name="Name" >Build templates for HTML export</attribute>
-<attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >17</attribute>
+<attribute name="ReadCount" >4</attribute>
+<attribute name="SelectionCount" >19</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >20</attribute>
@@ -870,7 +940,7 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="Name" >Refine the HTML export templates</attribute>
-<attribute name="SelectionCount" >7</attribute>
+<attribute name="SelectionCount" >8</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >29</attribute>
@@ -902,7 +972,7 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Internals</attribute>
 <attribute name="ReadCount" >7</attribute>
-<attribute name="SelectionCount" >8</attribute>
+<attribute name="SelectionCount" >11</attribute>
 <attribute name="Separator" >true</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -912,7 +982,8 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Prototypes</attribute>
-<attribute name="SelectionCount" >6</attribute>
+<attribute name="ReadCount" >4</attribute>
+<attribute name="SelectionCount" >12</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >33</attribute>
@@ -925,7 +996,8 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="Name" >*article</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } </attribute>
-<attribute name="SelectionCount" >19</attribute>
+<attribute name="ReadCount" >5</attribute>
+<attribute name="SelectionCount" >25</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >34</attribute>
@@ -939,7 +1011,8 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="Name" >*section</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; }</attribute>
-<attribute name="SelectionCount" >17</attribute>
+<attribute name="ReadCount" >2</attribute>
+<attribute name="SelectionCount" >19</attribute>
 <attribute name="Xpos" >10</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >35</attribute>
@@ -951,7 +1024,8 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="IsTemplate" >true</attribute>
 <attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="Name" >*template</attribute>
-<attribute name="SelectionCount" >2</attribute>
+<attribute name="ReadCount" >3</attribute>
+<attribute name="SelectionCount" >5</attribute>
 <attribute name="Xpos" >13.5</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >36</attribute>
@@ -962,7 +1036,8 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Templates</attribute>
-<attribute name="SelectionCount" >5</attribute>
+<attribute name="ReadCount" >2</attribute>
+<attribute name="SelectionCount" >7</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >37</attribute>
@@ -1052,11 +1127,7 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536901" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536902" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536842" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537803" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537801" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537981" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538041" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538042" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538101" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538102" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538105" destcreator="lmorchard"  />
@@ -1153,13 +1224,13 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
    <TipWindowY > 50</TipWindowY>
    <RegUserName > leslie orchard</RegUserName>
    <RegUserOrg > </RegUserOrg>
-   <CurrentAttributeClass > HTML</CurrentAttributeClass>
-   <CurrentAttribute > HTMLExportChildren</CurrentAttribute>
+   <CurrentAttributeClass > Appearance</CurrentAttributeClass>
+   <CurrentAttribute > Badge</CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
    <ExportFolder > Portafilter:Users:lorchard:Desktop:tinderbox-html5:</ExportFolder>
    <ReadOnly > 0</ReadOnly>
-   <InfoWindowHeight > 0</InfoWindowHeight>
-   <InfoWindowWidth > 0</InfoWindowWidth>
+   <InfoWindowHeight > 792</InfoWindowHeight>
+   <InfoWindowWidth > 591</InfoWindowWidth>
    <RecentFiles > &lt;files &gt;
 &lt;file &gt;Portafilter:Users:lorchard:Desktop:byob-ui-blog:BYOB Bookmark UI.tbx&lt;/file&gt;
 &lt;file &gt;Portafilter:Users:lorchard:Desktop:Flint:Flint.tbx&lt;/file&gt;
@@ -1209,6 +1280,7 @@ Notice I got a little ahead of things in the screenshot above: The next thing I 
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536961" Creator="lmorchard" type="explorer" bounds="Rect[ 162 152 1140 753]" x="0" y="0" scale="5" split="356" expanded="3358536108 3358536123 3358537083 3358537085 " collapsed="3358536961 3358536541 3358536901 3358536902 3358536841 3358538102 3358538522 3358539241 3358538101 3358537261 3358537262 3358537263 "  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 90 81 567 435]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537085 3358536541 3358537261 3358537262 " collapsed="3358537083 3358536961 3358536841 3358538102 3358538522 3358539241 3358538101 3358537263 "  />
+<window ID="3358537981" Creator="lmorchard" type="explorer" bounds="Rect[ 138 148 1092 777]" x="0" y="0" scale="5" split="371" expanded="3358536108 3358536123 3358537083 3358537085 3358536541 3358537261 3358537262 " collapsed="3358536961 3358536841 3358538102 3358538522 3358539241 3358538101 3358537263 "  />
 </windows>
 </tinderbox>
