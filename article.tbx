@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="8" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="automatic" >
+</attrib>
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray" >
+</attrib>
+<attrib Name="Color2" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light warm gray" >
+</attrib>
+<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
+</attrib>
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="CleanupAction" parent="General" editable="1" visibleInEditor="1" default="grid" >
+</attrib>
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="lmorchard" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="0" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ReadCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default=".html" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:html:plain" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;blockquote&gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/strike&gt;" >
+</attrib>
+<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;strike&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
+</attrib>
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="10" canInherit="0" default="Rect[ 50 50 750 350]" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.5" >
+</attrib>
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" default="Lucida Grande" >
+</attrib>
+<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="-1" >
+</attrib>
+<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSChannel" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#ddeedd" >
+</attrib>
+<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Simplenote" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="SimplenoteKey" parent="Simplenote" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SimplenoteModified" parent="Simplenote" editable="1" visibleInEditor="1" type="5" default="never" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutomaticIndent" parent="TextFormat" editable="1" visibleInEditor="1" kind="23" type="4" default="true" >
+</attrib>
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="15" type="2" default="2" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="2" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="16" type="2" default="-2" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="true" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.25;" >
+</attrib>
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" default="Monaco" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="12" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" default="Lucida Grande" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
+</attrib>
+</attrib>
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline" >
+</attrib>
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="41" >
+</attrib>
+</attrib>
+</attrib>
+<colors >
+<color name="black" color="#000000"  />
+<color name="blue" color="#003366"  />
+<color name="bright blue" color="#0000ff"  />
+<color name="bright green" color="#00ff00"  />
+<color name="bright red" color="#ff0000"  />
+<color name="cool gray" color="#607080"  />
+<color name="cool gray dark" color="#505860"  />
+<color name="cyan" color="#006666"  />
+<color name="green" color="#009900"  />
+<color name="magenta" color="#660066"  />
+<color name="normal" color="#ffffff"  />
+<color name="orange" color="#ff8800"  />
+<color name="poppy" color="#ffcc66"  />
+<color name="red" color="#990000"  />
+<color name="warm gray" color="#807060"  />
+<color name="warm gray dark" color="#605850"  />
+<color name="white" color="#ffffff"  />
+<color name="yellow" color="#cccc00"  />
+</colors>
+<menu name="Value" kind="stamps" >
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" color="#000000" colorString="#000000" style="0"  />
+<linkType name="agree" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="clarify" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="disagree" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="example" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="exception" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="note" visible="1" showLabel="1" color="#666666" colorString="#666666" style="0"  />
+<linkType name="note+" visible="1" showLabel="1" color="#444444" colorString="#444444" style="0"  />
+<linkType name="prototype" visible="0" showLabel="1" color="#993333" colorString="#993333" style="0"  />
+<linkType name="response" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+<linkType name="update" visible="1" showLabel="1" color="#000000" colorString="#000000" style="0"  />
+</linkTypes>
+<item ID="3358536108" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:38:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T22:38:00-04:00</attribute>
+<attribute name="Name" >article</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="3358536123" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:42:00-04:00</attribute>
+<attribute name="HTMLExportFileName" >article</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-05T00:44:00-04:00</attribute>
+<attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
+<attribute name="ReadCount" >153</attribute>
+<attribute name="SelectionCount" >176</attribute>
+<attribute name="WindowPlace" >Rect[ 345 269 778 548]</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >1</attribute>
+<text >For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t say *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less—and if you approach it from that mindset both the price and user interface will baffle you.No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [construction-site heavy machinery][construction] for your brain.And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a bit of a tutorial on some things in [Tinderbox][] that have all finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.[construction]: http://bit.ly/cBJBpX[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/[couchdb]: http://couchdb.apache.org/[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].\par
+\par
+But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t say *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less\u8212 and if you approach it from that mindset both the price and user interface will baffle you.\par
+\par
+No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [construction-site heavy machinery][construction] for your brain.\par
+\par
+And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a bit of a tutorial on some things in [Tinderbox][] that have all finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.\par
+\par
+[construction]: http://bit.ly/cBJBpX\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+[eastgate]: http://www.eastgate.com/\par
+[couchdb]: http://couchdb.apache.org/\par
+[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function\par
+[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs}}
+</rtf>
+<item ID="3358537083" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T00:23:00-04:00</attribute>
+<attribute name="Name" >Writing an article in Tinderbox</attribute>
+<attribute name="ReadCount" >26</attribute>
+<attribute name="SelectionCount" >30</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >2</attribute>
+<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
+\par
+[github]: http://github.com/lmorchard/tinderbox-article\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+[eastgate]: http://www.eastgate.com/}}
+</rtf>
+<strike >495 1 </strike>
+<item ID="3358536301" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:45:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:14:00-04:00</attribute>
+<attribute name="Name" >Outline the article&apos;s sections</attribute>
+<attribute name="ReadCount" >35</attribute>
+<attribute name="SelectionCount" >41</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >3</attribute>
+<text >The first thing to do is to create a new document, which opens up as an Outline View by default.  Hit return to create your first *note*, and type the title &quot;Creating an HTML5 Article with Tinderbox&quot;:![010-outline][]Now, if you hit SHIFT-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:![020-outline-2][]Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.[tinderbox]: http://www.eastgate.com/Tinderbox/[010-outline]: img/010-outline.png &quot;A new outline&quot;[020-outline-2]: img/020-outline-2.png &quot;An outline in progress&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 The first thing to do is to create a new document, which opens up as an Outline View by default.  Hit return to create your first *note*, and type the title &quot;Creating an HTML5 Article with Tinderbox&quot;:\par
+![010-outline][]\par
+\par
+Now, if you hit SHIFT-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:\par
+![020-outline-2][]\par
+\par
+Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.\par
+\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+[010-outline]: img/010-outline.png &quot;A new outline&quot;\par
+[020-outline-2]: img/020-outline-2.png &quot;An outline in progress&quot;\par
+\par
+}}
+</rtf>
+</item>
+<item ID="3358536361" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:46:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:13:00-04:00</attribute>
+<attribute name="Name" >Write the article&apos;s text in notes</attribute>
+<attribute name="ReadCount" >29</attribute>
+<attribute name="SelectionCount" >32</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >4</attribute>
+<text >Once you&apos;ve got an outline for your article in good shape, it&apos;s time to start writing the text of the article itself. Really, you can bounce back and forth between outlining and writing prose—Tinderbox doesn&apos;t impose a process—but this is a good time to introduce the latter.In [Tinderbox][], notes have many attributes. So far, you&apos;ve seen the `$Name` attribute in use as the titles of outline nodes. Well, notes can also contain body text. To see what I mean, click on a note to select it—say the root note of your outline—and hit the spacebar. Here&apos;s what the body text looks like for the root node of this tutorial:![021-note-text][]You can click on any note in the outline and call up a body text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing the text easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:![025-explorer-view][]The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself.[021-note-text]: img/021-note-text.png &quot;Note body text editor&quot;[025-explorer-view]: img/025-explorer-view.png &quot;New Explorer view&quot;[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Once you&apos;ve got an outline for your article in good shape, it&apos;s time to start writing the text of the article itself. Really, you can bounce back and forth between outlining and writing prose\u8212 Tinderbox doesn&apos;t impose a process\u8212 but this is a good time to introduce the latter.\par
+\par
+In [Tinderbox][], notes have many attributes. So far, you&apos;ve seen the `$Name` attribute in use as the titles of outline nodes. Well, notes can also contain body text. To see what I mean, click on a note to select it\u8212 say the root note of your outline\u8212 and hit the spacebar. Here&apos;s what the body text looks like for the root node of this tutorial:\par
+![021-note-text][]\par
+\par
+You can click on any note in the outline and call up a body text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.\par
+\par
+But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing the text easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:\par
+![025-explorer-view][]\par
+\par
+The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself.\par
+\par
+[021-note-text]: img/021-note-text.png &quot;Note body text editor&quot;\par
+[025-explorer-view]: img/025-explorer-view.png &quot;New Explorer view&quot;\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/}}
+</rtf>
+</item>
+</item>
+<item ID="3358537085" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:02:00-04:00</attribute>
+<attribute name="Name" >Exporting the article as HTML</attribute>
+<attribute name="ReadCount" >4</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >3</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >5</attribute>
+<text >Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and you&apos;ve written everything you want for a first draft. At this point, you&apos;d like to get the thing exported as HTML to publish somewhere on the web.This is where the more advanced features of [Tinderbox][]&apos;s HTML export templates come into play.[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and you&apos;ve written everything you want for a first draft. At this point, you&apos;d like to get the thing exported as HTML to publish somewhere on the web.\par
+\par
+This is where the more advanced features of [Tinderbox][]&apos;s HTML export templates come into play.\par
+\par
+[tinderbox]: http://www.eastgate.com/Tinderbox/\par
+}}
+</rtf>
+<item ID="3358536961" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T01:18:00-04:00</attribute>
+<attribute name="Name" >Create an &quot;Internals&quot; note to contain non-exportable utility notes</attribute>
+<attribute name="ReadCount" >15</attribute>
+<attribute name="SelectionCount" >22</attribute>
+<attribute name="Xpos" >5.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >6</attribute>
+<text >Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:![050-internals][]In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:![060-internals][]Notice I got a little ahead of things in the screenshot above: The next thing I want you to dois add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. \par
+\par
+Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:\par
+![050-internals][]\par
+\par
+In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:\par
+![060-internals][]\par
+\par
+Notice I got a little ahead of things in the screenshot above: The next thing I want you to dois add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.\par
+\par
+[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;\par
+[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;}}
+</rtf>
+<item ID="3358536962" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T22:56:00-04:00</attribute>
+<attribute name="Name" >Make it a separator</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >7</attribute>
+</item>
+<item ID="3358537321" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:02:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:02:00-04:00</attribute>
+<attribute name="Name" >Add a child notes named Prototypes and Templates</attribute>
+<attribute name="ReadCount" >2</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >10</attribute>
+</item>
+</item>
+<item ID="3358536541" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:49:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="Name" >Use prototypes to augment notes with common details</attribute>
+<attribute name="ReadCount" >10</attribute>
+<attribute name="SelectionCount" >24</attribute>
+<attribute name="Xpos" >3</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >12</attribute>
+<text ></text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="14" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs28\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 \par
+}}
+</rtf>
+<item ID="3358536901" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="Name" >Create a Prototype named *article</attribute>
+<attribute name="SelectionCount" >13</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >13</attribute>
+<item ID="3358538041" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:14:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:14:00-04:00</attribute>
+<attribute name="Name" >Assign a &quot;web&quot; badge</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >14</attribute>
+</item>
+</item>
+<item ID="3358537801" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:10:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:10:00-04:00</attribute>
+<attribute name="Name" >Edit the article note and use the *article prototype</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >2</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >15</attribute>
+</item>
+<item ID="3358536902" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="Name" >Create a Prototype named *section</attribute>
+<attribute name="SelectionCount" >15</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >16</attribute>
+<item ID="3358538042" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:14:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:14:00-04:00</attribute>
+<attribute name="Name" >Assign a &quot;next&quot; badge</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >17</attribute>
+</item>
+</item>
+<item ID="3358537803" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:10:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:10:00-04:00</attribute>
+<attribute name="Name" >Select multiple section notes and use the Quickstamp tool to assign the *section prototype to all</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >18</attribute>
+</item>
+<item ID="3358537981" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:13:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:13:00-04:00</attribute>
+<attribute name="Name" >Assign OnAdd rules to prototypes to auto-create *section notes.</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >19</attribute>
+</item>
+</item>
+<item ID="3358536841" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="Name" >Build templates for HTML export</attribute>
+<attribute name="ReadCount" >3</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >20</attribute>
+<item ID="3358538105" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Name" >Create a *template prototype</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >21</attribute>
+</item>
+<item ID="3358538102" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Name" >Create article.html</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >22</attribute>
+<item ID="3358538461" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:21:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:21:00-04:00</attribute>
+<attribute name="Name" >Select the *article prototype and open a New HTML View</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >23</attribute>
+</item>
+<item ID="3358538521" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:22:00-04:00</attribute>
+<attribute name="Name" >Select the article.html template</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >24</attribute>
+</item>
+</item>
+<item ID="3358538522" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:22:00-04:00</attribute>
+<attribute name="Name" >Create section.html</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >25</attribute>
+<item ID="3358538881" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="Name" >Select the *section prototype and open a New HTML View</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >12</attribute>
+<attribute name="Xpos" >4</attribute>
+<attribute name="Ypos" >0.5</attribute>
+<attribute name="id" >26</attribute>
+</item>
+<item ID="3358538882" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="Name" >Select the section.html template</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Xpos" >7.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+<attribute name="id" >27</attribute>
+</item>
+</item>
+<item ID="3358539241" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:34:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:34:00-04:00</attribute>
+<attribute name="Name" >Restrict exported notes by changing HTMLDontExport default to true</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >40</attribute>
+<item ID="3358539361" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:36:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:36:00-04:00</attribute>
+<attribute name="Name" >Remember to set HTMLDontExport to true on *article and *section prototypes</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >41</attribute>
+</item>
+</item>
+<item ID="3358538883" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
+<attribute name="Name" >Open a new HTML View on the root article note and hit update</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >28</attribute>
+</item>
+</item>
+<item ID="3358538101" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Name" >Refine the HTML export templates</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >29</attribute>
+<item ID="3358536842" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="Name" >Add the $Id sequence attribute and include unique section IDs</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >30</attribute>
+</item>
+<item ID="3358538281" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:18:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:18:00-04:00</attribute>
+<attribute name="Name" >Use runCommand() to filter text through Markdown</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >31</attribute>
+</item>
+</item>
+</item>
+</item>
+<item ID="3358537261" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="Name" >Internals</attribute>
+<attribute name="ReadCount" >7</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Separator" >true</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >32</attribute>
+<item ID="3358537262" Creator="lmorchard" >
+<attribute name="Badge" >folder</attribute>
+<attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="Name" >Prototypes</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >33</attribute>
+<item ID="3358537383" Creator="lmorchard" >
+<attribute name="Badge" >web</attribute>
+<attribute name="Created" >2010-06-04T23:03:00-04:00</attribute>
+<attribute name="HTMLDontExport" >false</attribute>
+<attribute name="HTMLExportTemplate" >/Internals/Templates/article.html</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
+<attribute name="Name" >*article</attribute>
+<attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } </attribute>
+<attribute name="SelectionCount" >19</attribute>
+<attribute name="Xpos" >6.5</attribute>
+<attribute name="Ypos" >1</attribute>
+<attribute name="id" >34</attribute>
+</item>
+<item ID="3358537384" Creator="lmorchard" >
+<attribute name="Badge" >arrow right</attribute>
+<attribute name="Created" >2010-06-04T23:03:00-04:00</attribute>
+<attribute name="HTMLDontExport" >false</attribute>
+<attribute name="HTMLExportTemplate" >/Internals/Templates/section.html</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
+<attribute name="Name" >*section</attribute>
+<attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; }</attribute>
+<attribute name="SelectionCount" >17</attribute>
+<attribute name="Xpos" >10</attribute>
+<attribute name="Ypos" >1</attribute>
+<attribute name="id" >35</attribute>
+</item>
+<item ID="3358538104" Creator="lmorchard" >
+<attribute name="Badge" >design</attribute>
+<attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="IsTemplate" >true</attribute>
+<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="Name" >*template</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >13.5</attribute>
+<attribute name="Ypos" >1</attribute>
+<attribute name="id" >36</attribute>
+</item>
+</item>
+<item ID="3358537263" Creator="lmorchard" >
+<attribute name="Badge" >folder</attribute>
+<attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="Name" >Templates</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Xpos" >3</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >37</attribute>
+<item ID="3358538103" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-05T00:33:00-04:00</attribute>
+<attribute name="Name" >article.html</attribute>
+<attribute name="ReadCount" >60</attribute>
+<attribute name="SelectionCount" >24</attribute>
+<attribute name="WindowPlace" >Rect[ 655 76 1084 414]</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >38</attribute>
+<text >&lt;!DOCTYPE html !&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article&gt;			&lt;h1&gt;^title^&lt;/h1&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;!DOCTYPE html !&gt;\par
+&lt;html&gt;\par
+\tab &lt;head&gt;\par
+\tab \tab &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\par
+\tab \tab &lt;title&gt;^title^&lt;/title&gt;\par
+\tab \tab &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;\par
+\tab &lt;/head&gt;\par
+\tab &lt;body&gt;\par
+\tab \tab &lt;article&gt;\par
+\tab \tab \tab &lt;h1&gt;^title^&lt;/h1&gt;\par
+\tab \tab \tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
+\tab \tab \tab ^justChildren^\par
+\tab \tab &lt;/article&gt;\par
+\tab \tab &lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;\par
+\tab &lt;/body&gt;\par
+&lt;/html&gt;\par
+}}
+</rtf>
+</item>
+<item ID="3358538523" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
+<attribute name="HTMLExportTemplate" >/Internals/Templates/section.html</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-04T23:33:00-04:00</attribute>
+<attribute name="Name" >section.html</attribute>
+<attribute name="ReadCount" >36</attribute>
+<attribute name="SelectionCount" >15</attribute>
+<attribute name="WindowPlace" >Rect[ 707 462 1178 812]</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >39</attribute>
+<text >&lt;section id=&quot;sect-^value($id)^&quot;&gt;	&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;	^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^	^justChildren^&lt;/section&gt;</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;section id=&quot;sect-^value($id)^&quot;&gt;\par
+\tab &lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;\par
+\tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
+\tab ^justChildren^\par
+&lt;/section&gt;}}
+</rtf>
+</item>
+</item>
+</item>
+</item>
+<links >
+<link name="prototype" sourceid="3358537383" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536123" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537083" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536301" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536361" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537085" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536961" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536541" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536841" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536901" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536902" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536842" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537803" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537801" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537981" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538041" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538042" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538101" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538102" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538105" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358538104" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538103" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538281" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538461" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538521" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538522" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358538104" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538523" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538881" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538882" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538883" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358539241" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358539361" destcreator="lmorchard"  />
+</links>
+<macros >
+</macros>
+<preferences >
+   <Creator > lmorchard</Creator>
+   <ToolbarVisible > 0</ToolbarVisible>
+   <OpenTextImmediately > 0</OpenTextImmediately>
+   <RunScriptsAutomatically > 1</RunScriptsAutomatically>
+   <Tinderbox5Wizard > 0</Tinderbox5Wizard>
+   <DynamicSpelling > 0</DynamicSpelling>
+   <AutoOpen > 1</AutoOpen>
+   <RememberWindowPositions > 1</RememberWindowPositions>
+   <KeepWindowsOpen > 1</KeepWindowsOpen>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 2</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <TextFont > Monaco</TextFont>
+   <TextSize > 3</TextSize>
+   <TextJust > 0</TextJust>
+   <AlwaysShowTextLinks > 0</AlwaysShowTextLinks>
+   <TextLinkFrames > 1</TextLinkFrames>
+   <TextLinkColor > 0 26112 52224</TextLinkColor>
+   <VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+   <ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+   <MagnifyPictures > 1</MagnifyPictures>
+   <TextWindowWidth > 6</TextWindowWidth>
+   <TextWindowHeight > 4</TextWindowHeight>
+   <TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
+   <TextColor > 0 0 0</TextColor>
+   <ShowSidebar > 0</ShowSidebar>
+   <AutoIndentLists > 1</AutoIndentLists>
+   <ShowTitle > 1</ShowTitle>
+   <TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
+   <TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
+   <TitleFont > Lucida Grande</TitleFont>
+   <TitleSize > 2</TitleSize>
+   <TitleJust > 2</TitleJust>
+   <MapShowLinks > 1</MapShowLinks>
+   <MapEnacted > 1</MapEnacted>
+   <InPlaceEditing > 1</InPlaceEditing>
+   <MapLabelSize > 3</MapLabelSize>
+   <MapBackgroundColor > 65535 65535 65535</MapBackgroundColor>
+   <MapPrototypeColor > 56797 61166 56797</MapPrototypeColor>
+   <MapFont > Lucida Grande</MapFont>
+   <DarkenOutlineColors > 0</DarkenOutlineColors>
+   <BlackOutlineText > 0</BlackOutlineText>
+   <OutlineLeading > 2</OutlineLeading>
+   <InteriorScale > 1</InteriorScale>
+   <ExpandMode > 1</ExpandMode>
+   <ExportImageFormat > 1</ExportImageFormat>
+   <ExportURL > http://</ExportURL>
+   <ExportHTMLCreator > 1</ExportHTMLCreator>
+   <ExportHTMLHelper > Safari</ExportHTMLHelper>
+   <ExportHTMLExtension > 0</ExportHTMLExtension>
+   <HTMLParagraphStyle > 1</HTMLParagraphStyle>
+   <HTMLViewFont > Lucida Grande</HTMLViewFont>
+   <HTMLViewFontSize > 2</HTMLViewFontSize>
+   <ExportTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplatePath>
+   <ExportTemplate > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplate>
+   <ExportTextTemplate > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplate>
+   <RoadmapWindowWidth > 0</RoadmapWindowWidth>
+   <RoadmapWindowHeight > 0</RoadmapWindowHeight>
+   <ExportTextCreator > 1</ExportTextCreator>
+   <TextExportViewFont > Lucida Grande</TextExportViewFont>
+   <TextExportViewFontSize > 2</TextExportViewFontSize>
+   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <ExportTextHelper > TextEdit</ExportTextHelper>
+   <AskToDelete > 1</AskToDelete>
+   <DailyTip > 1</DailyTip>
+   <WarnEditingDefault > 0</WarnEditingDefault>
+   <WarnDuplicateName > 0</WarnDuplicateName>
+   <Version > version 5.5</Version>
+   <PreferencePane > 2</PreferencePane>
+   <Fontmap > 2
+ 4 Monaco
+ 1024 Lucida Grande
+</Fontmap>
+   <TipWindowX > 300</TipWindowX>
+   <TipWindowY > 50</TipWindowY>
+   <RegUserName > leslie orchard</RegUserName>
+   <RegUserOrg > </RegUserOrg>
+   <CurrentAttributeClass > HTML</CurrentAttributeClass>
+   <CurrentAttribute > HTMLExportChildren</CurrentAttribute>
+   <FindCaseSensitive > 1</FindCaseSensitive>
+   <ExportFolder > Portafilter:Users:lorchard:Desktop:tinderbox-html5:</ExportFolder>
+   <ReadOnly > 0</ReadOnly>
+   <InfoWindowHeight > 0</InfoWindowHeight>
+   <InfoWindowWidth > 0</InfoWindowWidth>
+   <RecentFiles > &lt;files &gt;
+&lt;file &gt;Portafilter:Users:lorchard:Desktop:byob-ui-blog:BYOB Bookmark UI.tbx&lt;/file&gt;
+&lt;file &gt;Portafilter:Users:lorchard:Desktop:Flint:Flint.tbx&lt;/file&gt;
+&lt;file &gt;Portafilter:Users:lorchard:Desktop:daybook.tbx&lt;/file&gt;
+&lt;file &gt;Portafilter:Users:lorchard:devel:decafbad:recaffeinated:recaffeinated.tbx&lt;/file&gt;
+&lt;file &gt;Portafilter:Users:lorchard:Desktop:wtf.tbx&lt;/file&gt;
+&lt;file &gt;Portafilter:Users:lorchard:Documents:main.tbx&lt;/file&gt;
+&lt;/files&gt;
+</RecentFiles>
+   <PingServer > http://rpc.weblogs.com/RPC2</PingServer>
+   <PingMethod > weblogUpdates.ping</PingMethod>
+   <PingTitle > your weblog name</PingTitle>
+   <PingURL > weblog URL</PingURL>
+      <PingTechnorati > 1</PingTechnorati>
+   <PingWeblogsCom > 1</PingWeblogsCom>
+   <PingGoogle > 1</PingGoogle>
+   <PingFeedURL > </PingFeedURL>
+   <WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
+   <WeblogUser > </WeblogUser>
+   <WeblogPassword > </WeblogPassword>
+   <WeblogID > 1</WeblogID>
+   <WeblogKind > 2</WeblogKind>
+   <ToolbarKind > 3</ToolbarKind>
+   <ReadingReminders > 0</ReadingReminders>
+   <AllowViews > 1</AllowViews>
+   <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+   <ToolbarX > 723</ToolbarX>
+   <ToolbarY > 675</ToolbarY>
+   <FindWindowX > 600</FindWindowX>
+   <FindWindowY > 100</FindWindowY>
+   <RenameWindowX > 569</RenameWindowX>
+   <RenameWindowY > 95</RenameWindowY>
+   <UpdateViewShown > 6/4/10 10:14 PM</UpdateViewShown>
+   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 2</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <SoundOn > 1</SoundOn>
+   <BecomeReadOnly > 0</BecomeReadOnly>
+   <CheckMail > 0</CheckMail>
+   <MailHost > </MailHost>
+   <MailUser > </MailUser>
+   <MailPassword > </MailPassword>
+   <CheckSimplenote > 0</CheckSimplenote>
+   <SimplenoteEmail > </SimplenoteEmail>
+   <SimplenotePassword > </SimplenotePassword>
+</preferences>
+<windows >
+<window ID="3358536961" Creator="lmorchard" type="explorer" bounds="Rect[ 162 152 1140 753]" x="0" y="0" scale="5" split="356" expanded="3358536108 3358536123 3358537083 3358537085 " collapsed="3358536961 3358536541 3358536901 3358536902 3358536841 3358538102 3358538522 3358539241 3358538101 3358537261 3358537262 3358537263 "  />
+</windows>
+</tinderbox>
