@@ -137,7 +137,7 @@
 </attrib>
 <attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
 </attrib>
-<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
 <attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
 </attrib>
@@ -385,7 +385,7 @@
 </attrib>
 <attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
 </attrib>
-<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline" >
+<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:title and text" >
 </attrib>
 <attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
 </attrib>
@@ -408,7 +408,7 @@
 </attrib>
 </attrib>
 <attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="42" >
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="48" >
 </attrib>
 </attrib>
 </attrib>
@@ -457,15 +457,15 @@
 <attribute name="Created" >2010-06-04T22:42:00-04:00</attribute>
 <attribute name="HTMLExportFileName" >article</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T00:44:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T15:10:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
-<attribute name="ReadCount" >157</attribute>
-<attribute name="SelectionCount" >184</attribute>
-<attribute name="WindowPlace" >Rect[ 345 269 778 548]</attribute>
+<attribute name="ReadCount" >173</attribute>
+<attribute name="SelectionCount" >232</attribute>
+<attribute name="WindowPlace" >Rect[ 345 269 899 757]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >1</attribute>
-<text >For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t say *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less—and if you approach it from that mindset both the price and user interface will baffle you.No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [construction-site heavy machinery][construction] for your brain.And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a bit of a tutorial on some things in [Tinderbox][] that have all finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.[construction]: http://bit.ly/cBJBpX[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/[couchdb]: http://couchdb.apache.org/[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs</text>
+<text >For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t write *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less—and if you approach it from that mindset both the price and user interface will baffle you.No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [heavy machinery][construction] for your brain.And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a tutorial on some things that have finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.[construction]: http://bit.ly/cBJBpX[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/[couchdb]: http://couchdb.apache.org/[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -478,11 +478,11 @@
 \deftab720
 {\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].\par
 \par
-But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t say *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less\u8212 and if you approach it from that mindset both the price and user interface will baffle you.\par
+But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t write *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less\u8212 and if you approach it from that mindset both the price and user interface will baffle you.\par
 \par
-No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [construction-site heavy machinery][construction] for your brain.\par
+No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [heavy machinery][construction] for your brain.\par
 \par
-And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a bit of a tutorial on some things in [Tinderbox][] that have all finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.\par
+And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a tutorial on some things that have finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.\par
 \par
 [construction]: http://bit.ly/cBJBpX\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
@@ -493,14 +493,15 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 </rtf>
 <item ID="3358537083" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:19:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T15:13:00-04:00</attribute>
 <attribute name="Name" >Writing an article in Tinderbox</attribute>
-<attribute name="ReadCount" >31</attribute>
-<attribute name="SelectionCount" >37</attribute>
+<attribute name="ReadCount" >41</attribute>
+<attribute name="SelectionCount" >53</attribute>
+<attribute name="WindowPlace" >Rect[ 352 278 955 798]</attribute>
 <attribute name="Xpos" >2</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >2</attribute>
-<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -511,23 +512,24 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial is an article written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete [Tinderbox][] source document can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, tracking the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github]. I&apos;ll be building things up incrementally throughout this tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
 \par
 [github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [eastgate]: http://www.eastgate.com/}}
 </rtf>
-<strike >495 1 </strike>
+<strike >490 1 </strike>
 <item ID="3358536301" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:45:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:14:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T15:14:00-04:00</attribute>
 <attribute name="Name" >Outline the article&apos;s sections</attribute>
-<attribute name="ReadCount" >37</attribute>
-<attribute name="SelectionCount" >44</attribute>
+<attribute name="ReadCount" >49</attribute>
+<attribute name="SelectionCount" >53</attribute>
+<attribute name="WindowPlace" >Rect[ 330 237 986 706]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >3</attribute>
-<text >The first thing to do is to create a new document, which opens up as an Outline View by default.  Hit return to create your first *note*, and type the title &quot;Creating an HTML5 Article with Tinderbox&quot;:![010-outline][]Now, if you hit SHIFT-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:![020-outline-2][]Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.[tinderbox]: http://www.eastgate.com/Tinderbox/[010-outline]: img/010-outline.png &quot;A new outline&quot;[020-outline-2]: img/020-outline-2.png &quot;An outline in progress&quot;</text>
+<text >The first thing to do is to create a new document, which opens up as an Outline View by default.  Hit return to create your first *note*, and type the title &quot;Creating an HTML5 Article with Tinderbox&quot;:![010-outline][]Now, if you hit Shift-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:![020-outline-2][]This is basic outlining, one of the simpler features of Tinderbox and many productivity applications. Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.[tinderbox]: http://www.eastgate.com/Tinderbox/[010-outline]: img/010-outline.png &quot;A new outline&quot;[020-outline-2]: img/020-outline-2.png &quot;An outline in progress&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -541,10 +543,10 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 {\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 The first thing to do is to create a new document, which opens up as an Outline View by default.  Hit return to create your first *note*, and type the title &quot;Creating an HTML5 Article with Tinderbox&quot;:\par
 ![010-outline][]\par
 \par
-Now, if you hit SHIFT-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:\par
+Now, if you hit Shift-Return, you&apos;ll create a child note under the first one. Type the title of your second note, &quot;Outline your article&apos;s sections&quot;.  After that, hit Return, and you can start typing the title of the next note.  Your outline is now well under way:\par
 ![020-outline-2][]\par
 \par
-Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.\par
+This is basic outlining, one of the simpler features of Tinderbox and many productivity applications. Continue like this, sketching out the structure of what you plan to write. You can drag notes around to rearrange them, delete them, do whatever you like with the outline. Note that [Tinderbox][] offers many further tools for capturing and visualizing your thoughts, but we&apos;ll stick with the Outline View for now.\par
 \par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [010-outline]: img/010-outline.png &quot;A new outline&quot;\par
@@ -555,14 +557,15 @@ Continue like this, sketching out the structure of what you plan to write. You c
 </item>
 <item ID="3358536361" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:46:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:13:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T14:57:00-04:00</attribute>
 <attribute name="Name" >Write the article&apos;s text in notes</attribute>
-<attribute name="ReadCount" >29</attribute>
-<attribute name="SelectionCount" >33</attribute>
+<attribute name="ReadCount" >38</attribute>
+<attribute name="SelectionCount" >57</attribute>
+<attribute name="WindowPlace" >Rect[ 205 265 909 838]</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >4</attribute>
-<text >Once you&apos;ve got an outline for your article in good shape, it&apos;s time to start writing the text of the article itself. Really, you can bounce back and forth between outlining and writing prose—Tinderbox doesn&apos;t impose a process—but this is a good time to introduce the latter.In [Tinderbox][], notes have many attributes. So far, you&apos;ve seen the `$Name` attribute in use as the titles of outline nodes. Well, notes can also contain body text. To see what I mean, click on a note to select it—say the root note of your outline—and hit the spacebar. Here&apos;s what the body text looks like for the root node of this tutorial:![021-note-text][]You can click on any note in the outline and call up a body text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing the text easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:![025-explorer-view][]The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself.[021-note-text]: img/021-note-text.png &quot;Note body text editor&quot;[025-explorer-view]: img/025-explorer-view.png &quot;New Explorer view&quot;[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
+<text >Once you&apos;ve got an outline for your article in good shape, it&apos;s time to start writing the text of the article itself. Really, you can bounce back and forth between outlining and writing prose—Tinderbox doesn&apos;t impose a process—but this is a good time to introduce the latter.In [Tinderbox][], notes have many attributes. So far, you&apos;ve seen the `$Name` attribute in use as the titles of outline nodes. Well, notes can also contain body text. To see what I mean, click on a note to select it—say the root note of your outline—and hit the spacebar. Here&apos;s what the body text looks like for the root node of this tutorial:![021-note-text][]You can click on any note in the outline and call up a text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:![025-explorer-view][]The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself. One of the main drawbacks of using the Explorer View, though, is that it&apos;s difficult to compare the text of two notes side-by-side. However, Tinderbox lets you easily switch between multiple views on the same document, so nothing keeps you from using whatever tool makes sense from moment to moment.[021-note-text]: img/021-note-text.png &quot;Note body text editor&quot;[025-explorer-view]: img/025-explorer-view.png &quot;New Explorer view&quot;[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -578,12 +581,14 @@ Continue like this, sketching out the structure of what you plan to write. You c
 In [Tinderbox][], notes have many attributes. So far, you&apos;ve seen the `$Name` attribute in use as the titles of outline nodes. Well, notes can also contain body text. To see what I mean, click on a note to select it\u8212 say the root note of your outline\u8212 and hit the spacebar. Here&apos;s what the body text looks like for the root node of this tutorial:\par
 ![021-note-text][]\par
 \par
-You can click on any note in the outline and call up a body text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.\par
+You can click on any note in the outline and call up a text editor with the spacebar. By using this editor, you can work on writing the actual content of your article.\par
 \par
-But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing the text easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:\par
+But, clicking on each note and hitting the spacebar can get tedious after awhile. [Tinderbox][] offers another View to make editing easier across a complex document. Select `View &gt; New Explorer View` from the menu, and you&apos;ll see something like this window:\par
 ![025-explorer-view][]\par
 \par
-The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself.\par
+The Explorer View is a split window combining both a note text editor with another view type. By default, this will show your outline. Here, you can click on the title of a note, and its text appears in the editor. This should make it easier to jump back and forth between sections, and even perform some tweaks to the outline itself. \par
+\par
+One of the main drawbacks of using the Explorer View, though, is that it&apos;s difficult to compare the text of two notes side-by-side. However, Tinderbox lets you easily switch between multiple views on the same document, so nothing keeps you from using whatever tool makes sense from moment to moment.\par
 \par
 [021-note-text]: img/021-note-text.png &quot;Note body text editor&quot;\par
 [025-explorer-view]: img/025-explorer-view.png &quot;New Explorer view&quot;\par
@@ -591,16 +596,17 @@ The Explorer View is a split window combining both a note text editor with anoth
 </rtf>
 </item>
 </item>
-<item ID="3358537085" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T01:02:00-04:00</attribute>
-<attribute name="Name" >Exporting the article as HTML</attribute>
-<attribute name="ReadCount" >7</attribute>
-<attribute name="SelectionCount" >13</attribute>
+<item ID="3358536541" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:49:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T17:01:00-04:00</attribute>
+<attribute name="Name" >Using prototypes to augment notes with common details</attribute>
+<attribute name="ReadCount" >44</attribute>
+<attribute name="SelectionCount" >66</attribute>
+<attribute name="WindowPlace" >Rect[ 693 79 1297 636]</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
-<attribute name="id" >5</attribute>
-<text >Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and you&apos;ve written everything you want for a first draft. At this point, you&apos;d like to get the thing exported as HTML to publish somewhere on the web.This is where the more advanced features of [Tinderbox][]&apos;s HTML export templates come into play.[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
+<attribute name="id" >12</attribute>
+<text >Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what goes on under the hood of your notes.In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. Furthermore, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and let&apos;s say you&apos;ve written everything you want for a first draft. It&apos;s time to begin preparing the document for the production of an HTML page.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -611,23 +617,27 @@ The Explorer View is a split window combining both a note text editor with anoth
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and you&apos;ve written everything you want for a first draft. At this point, you&apos;d like to get the thing exported as HTML to publish somewhere on the web.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what goes on under the hood of your notes.\par
 \par
-This is where the more advanced features of [Tinderbox][]&apos;s HTML export templates come into play.\par
+In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. Furthermore, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.\par
 \par
+Now, say you&apos;re done composing the content of your article. You&apos;ve gotten the outline structured to your satisfaction, and let&apos;s say you&apos;ve written everything you want for a first draft. It&apos;s time to begin preparing the document for the production of an HTML page.\par
+\par
+[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
-}}
+[eastgate]: http://www.eastgate.com/}}
 </rtf>
 <item ID="3358536961" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T02:24:00-04:00</attribute>
-<attribute name="Name" >Create an &quot;Internals&quot; note to contain non-exportable utility notes</attribute>
-<attribute name="ReadCount" >25</attribute>
-<attribute name="SelectionCount" >33</attribute>
-<attribute name="Xpos" >5.5</attribute>
+<attribute name="Modified" >2010-06-05T17:03:00-04:00</attribute>
+<attribute name="Name" >Creating an &quot;Internals&quot; note to contain utility notes</attribute>
+<attribute name="ReadCount" >39</attribute>
+<attribute name="SelectionCount" >56</attribute>
+<attribute name="WindowPlace" >Rect[ 589 242 1214 855]</attribute>
+<attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >6</attribute>
-<text >Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:![050-internals][]In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:![060-internals][]I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content. Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;</text>
+<text >First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:![050-internals][]In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:![060-internals][]I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content.Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;. These two additional notes will serve as containers for further resources created throughout the tutorial.[050-internals]: img/050-internals.png &quot;Creating the internals note&quot;[060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -638,7 +648,7 @@ This is where the more advanced features of [Tinderbox][]&apos;s HTML export tem
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Now, things start to get interesting. First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. \par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 First, in order to keep things clean, you&apos;re going to create a new note to contain the export machinery you&apos;ll soon need. \par
 \par
 Select the root note of your article.  But, rather than just hitting return to create a new outline item, hit Cmd-K to summon the full Create Note dialog window:\par
 ![050-internals][]\par
@@ -646,71 +656,26 @@ Select the root note of your article.  But, rather than just hitting return to c
 In this dialog, you can control quite a number of different attributes and options. But, ignore most of them for now. Just type the name &quot;Internals&quot; and, for good measure, check the &quot;Separator&quot; box. This will create a new note like the following:\par
 ![060-internals][]\par
 \par
-I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content. Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;.\par
+I had you select the &quot;Separator&quot; box both to sneak in a new example of a Tinderbox feature, as well as to make this special new container stand apart from the article content.\par
+\par
+Also, notice I got a little ahead of things in the screenshot above: The next thing I want you to do is add two notes as children under &quot;Internals&quot;, respectively named &quot;Prototypes&quot; and &quot;Templates&quot;. These two additional notes will serve as containers for further resources created throughout the tutorial.\par
 \par
 [050-internals]: img/050-internals.png &quot;Creating the internals note&quot;\par
 [060-internals]: img/060-internals.png &quot;The internals note in the outline&quot;}}
 </rtf>
-<item ID="3358536962" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T22:56:00-04:00</attribute>
-<attribute name="Name" >Make it a separator</attribute>
-<attribute name="SelectionCount" >2</attribute>
-<attribute name="Xpos" >0</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >7</attribute>
 </item>
-<item ID="3358537321" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:02:00-04:00</attribute>
-<attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:02:00-04:00</attribute>
-<attribute name="Name" >Add a child notes named Prototypes and Templates</attribute>
-<attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >2</attribute>
-<attribute name="Xpos" >10.5</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >10</attribute>
-</item>
-</item>
-<item ID="3358536541" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T22:49:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T02:27:00-04:00</attribute>
-<attribute name="Name" >Using prototypes to augment notes with common details</attribute>
-<attribute name="ReadCount" >38</attribute>
-<attribute name="SelectionCount" >55</attribute>
-<attribute name="Xpos" >3</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >12</attribute>
-<text >Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. And, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
-<styles >
- <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
-</styles>
-<rtf >{\rtf1\mac
-{\fonttbl
-{\f0\fmodern\fcharset77 Monaco;}}
-{\colortbl
-\red0\green0\blue0;}
-{\info}
-\deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Spreadsheets and relational databases center around rows and columns. Similarly, Tinderbox centers around notes and attributes. For the most part, the attributes of your notes have been invisible, since you&apos;ve been dealing mainly with names and body text. But, you&apos;re about to get a bit more acquainted with what&apos;s going on under the hood of your notes.\par
-\par
-In Tinderbox, you can create a special kind of note called a *prototype*. A prototype, as its name suggests, can serve as the basis for many other notes. You can create a prototype and assign values to its attributes, and those values will be used as defaults for other notes using that prototype. And, if you change an attribute on a prototype, other notes using the prototype will inherit the changes to their defaults.\par
-\par
-[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
-[tinderbox]: http://www.eastgate.com/Tinderbox/\par
-[eastgate]: http://www.eastgate.com/}}
-</rtf>
 <item ID="3358536901" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T02:31:00-04:00</attribute>
-<attribute name="Name" >Create a prototype named *article</attribute>
-<attribute name="ReadCount" >53</attribute>
-<attribute name="SelectionCount" >67</attribute>
+<attribute name="Modified" >2010-06-05T17:10:00-04:00</attribute>
+<attribute name="Name" >Creating a prototype named *article</attribute>
+<attribute name="ReadCount" >78</attribute>
+<attribute name="SelectionCount" >97</attribute>
+<attribute name="WindowPlace" >Rect[ 374 282 1051 743]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >13</attribute>
-<text >So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:![070-article-create][]In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:![080-article-prototype][]Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear—select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:![090-article-badge][]Pick one of these—I used &quot;web&quot;, myself—and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:![091-article-badge-applied][]This works because the *badge* you picked is assigned by Tinderbox to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >Next, to further explore prototypes, create a child note named &quot;`*article`&quot; under the Prototypes note in Internals. Why the name `*article`? No technical reason, really; name it whatever you like. I prefer to use peculiar names for notes that have special purposes.Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one used to create the Internals note earlier:![070-article-create][]In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:![080-article-prototype][]Notice the drop down selection for Prototype. In this list, you should see the name of your new prototype `*article`—select it and hit Ok. Now, your root article note is an instance of the prototype `*article`.[080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;[070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -721,26 +686,18 @@ In Tinderbox, you can create a special kind of note called a *prototype*. A prot
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 So, to see what all the above means, create a child note named &quot;`*article`&quot; under the new Prototypes note in Internals. Why `*article`? No reason, really. Name it whatever you like, but I prefer to use odd looking names for notes that have special purposes.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Next, to further explore prototypes, create a child note named &quot;`*article`&quot; under the Prototypes note in Internals. Why the name `*article`? No technical reason, really; name it whatever you like. I prefer to use peculiar names for notes that have special purposes.\par
 \par
-Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one you saw to create the Internals note earlier:\par
+Now, either right-click and pick Rename from the context menu, or hit Enter. (That&apos;s *Enter*, mind you, not *Return*. On my MacBook Pro, this is Fn-Return.) This will summon up the note details dialog, not unlike the one used to create the Internals note earlier:\par
 ![070-article-create][]\par
 \par
-In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:\par
+In this dialog, check the box next to &quot;Can be a prototype&quot; and click Ok. This note is now a *prototype*.  \par
+\par
+Next, select the root note of your article and summon the note dialog with either the right-click menu or the Enter key:\par
 ![080-article-prototype][]\par
 \par
-Notice the drop down selection for Prototype. In this list, you should see your new prototype `*article` appear\u8212 select it and hit Ok. Now, your root article note is an instance of the prototype `*article`. To demonstrate what this means, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. \par
+Notice the drop down selection for Prototype. In this list, you should see the name of your new prototype `*article`\u8212 select it and hit Ok. Now, your root article note is an instance of the prototype `*article`.\par
 \par
-Just to the left of the note title for `*article`, there should be a bit of empty space. Right click here, and you should see a list of icons like these:\par
-![090-article-badge][]\par
-\par
-Pick one of these\u8212 I used &quot;web&quot;, myself\u8212 and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:\par
-![091-article-badge-applied][]\par
-\par
-This works because the *badge* you picked is assigned by Tinderbox to the `$Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `$Badge` attribute as well. \par
-\par
-[091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;\par
-[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;\par
 [080-article-prototype]: img/080-article-prototype.png &quot;Using the article prototype&quot;\par
 [070-article-create]: img/070-article-create.png &quot;Creating the article prototype&quot;\par
 \par
@@ -748,18 +705,17 @@ This works because the *badge* you picked is assigned by Tinderbox to the `$Badg
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [eastgate]: http://www.eastgate.com/}}
 </rtf>
-</item>
-<item ID="3358536902" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
-<attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T02:33:00-04:00</attribute>
-<attribute name="Name" >Create a prototype named *section</attribute>
-<attribute name="ReadCount" >21</attribute>
-<attribute name="SelectionCount" >37</attribute>
-<attribute name="Xpos" >3.5</attribute>
+<item ID="3358602481" Creator="lmorchard" >
+<attribute name="Created" >2010-06-05T17:08:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T17:11:00-04:00</attribute>
+<attribute name="Name" >Using badges in outlines with prototypes</attribute>
+<attribute name="ReadCount" >17</attribute>
+<attribute name="SelectionCount" >21</attribute>
+<attribute name="WindowPlace" >Rect[ 423 179 1062 753]</attribute>
+<attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
-<attribute name="id" >16</attribute>
-<text >Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`—that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:![101-section-badge][]I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping me keep track of the purposes that various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:![110-select-sections][]Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:![111-quickstamp-sections][]With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:![112-section-applied][][112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;</text>
+<attribute name="id" >48</attribute>
+<text >To demonstrate how prototype inheritance works, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. Just to the left of the note title for `*article`, there should be a bit of empty space. Right-click here, and you should see a list of icons like these:![090-article-badge][]Pick one of these—I used &quot;web&quot;, myself—and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:![091-article-badge-applied][]This works because the *badge* you picked is assigned by Tinderbox to the `Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `Badge` attribute as well. [091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -770,21 +726,60 @@ This works because the *badge* you picked is assigned by Tinderbox to the `$Badg
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create is called &quot;`*section`&quot;, which will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`\u8212 that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 To demonstrate how prototype inheritance works, I&apos;ll introduce another interesting feature of Tinderbox outlines, called *badges*. \par
 \par
-After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;next&quot; in my document:\par
+Just to the left of the note title for `*article`, there should be a bit of empty space. Right-click here, and you should see a list of icons like these:\par
+![090-article-badge][]\par
+\par
+Pick one of these\u8212 I used &quot;web&quot;, myself\u8212 and you should notice that not only does the prototype now have an icon next to it, so does the root note of your article:\par
+![091-article-badge-applied][]\par
+\par
+This works because the *badge* you picked is assigned by Tinderbox to the `Badge` attribute of the `*article` prototype. And, since your article&apos;s root node is an instance of the `*article` prototype, it received the same value for its `Badge` attribute as well. \par
+\par
+[091-article-badge-applied]: img/091-article-badge-applied.png &quot;Prototype badge inherited&quot;\par
+[090-article-badge]: img/090-article-badge.png &quot;Picking the article badge&quot;}}
+</rtf>
+</item>
+</item>
+<item ID="3358536902" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:55:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-05T17:16:00-04:00</attribute>
+<attribute name="Name" >Creating a prototype named *section</attribute>
+<attribute name="ReadCount" >41</attribute>
+<attribute name="SelectionCount" >63</attribute>
+<attribute name="WindowPlace" >Rect[ 411 197 1064 794]</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >16</attribute>
+<text >Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create will be called &quot;`*section`&quot;. This one will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`—that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;arrow right&quot; in my document:![101-section-badge][]I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping keep track visually of the purposes that various notes serve. Now, select your article&apos;s root note, select `View &gt; Expand All` to reveal all sections. Select all of these sections, by clicking the first and then clicking the last in the list while holding shift.  The selection should look like so:![110-select-sections][]Once you&apos;ve got all sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:![111-quickstamp-sections][]With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:![112-section-applied][]As the spread of the decorative badge demonstrates, the prototype inheritance mechanism has propagated the badge change to all notes using `*section` as a prototype. This will come in handy beyond badges before the tutorial is done.[112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;[111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;[110-select-sections]: img/110-select-sections.png &quot;Select all sections&quot;[101-section-badge]: img/101-section-badge.png &quot;Section prototype with badge&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Again, as you can see from the screenshot, I&apos;ve gotten ahead of things. The next prototype I want you to create will be called &quot;`*section`&quot;. This one will be used for all the sections and sub-sections in your article. Create it in the same way you created `*article`\u8212 that is: create the note, summon the note details dialog, ensure &quot;Can be a prototype&quot; is checked.\par
+\par
+After you&apos;ve created a `*section` prototype, give it a badge. I used &quot;arrow right&quot; in my document:\par
 ![101-section-badge][]\par
 \par
-I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping me keep track of the purposes that various notes serve. Now, run through your outline, expand every parent note, and select every section, like so:\par
+I&apos;ve also given a &quot;folder&quot; badge to some other container notes: These are purely ornamental, helping keep track visually of the purposes that various notes serve. Now, select your article&apos;s root note, select `View &gt; Expand All` to reveal all sections. Select all of these sections, by clicking the first and then clicking the last in the list while holding shift.  The selection should look like so:\par
 ![110-select-sections][]\par
 \par
-Once you&apos;ve got all of your sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:\par
+Once you&apos;ve got all sections selected, it&apos;s time for another interesting tool in the Tinderbox, called Quickstamp. Either hit Cmd-1 or pick `Window &gt; Inspector` from the menu. You&apos;ll see a dialog like this one:\par
 ![111-quickstamp-sections][]\par
 \par
 With this dialog, you can &quot;quick stamp&quot; a value for a given attribute onto many notes at once. Select the &quot;General&quot; category from the first drop down, and then &quot;Prototype&quot; from the second. Type &quot;`*section`&quot; into the Value field, and click Apply.\par
 \par
 Almost instantly, you should see the badge from your `*section` prototype appear on all the sections you&apos;ve selected in your outline:\par
 ![112-section-applied][]\par
+\par
+As the spread of the decorative badge demonstrates, the prototype inheritance mechanism has propagated the badge change to all notes using `*section` as a prototype. This will come in handy beyond badges before the tutorial is done.\par
 \par
 [112-section-applied]: img/112-section-applied.png &quot;Section prototype applied&quot;\par
 [111-quickstamp-sections]: img/111-quickstamp-sections.png &quot;Quickstamp dialog&quot;\par
@@ -794,14 +789,14 @@ Almost instantly, you should see the badge from your `*section` prototype appear
 </item>
 <item ID="3358537981" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:13:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T02:37:00-04:00</attribute>
-<attribute name="Name" >Assign OnAdd rules to prototypes to auto-assign *section notes.</attribute>
-<attribute name="ReadCount" >39</attribute>
-<attribute name="SelectionCount" >39</attribute>
+<attribute name="Modified" >2010-06-05T17:17:00-04:00</attribute>
+<attribute name="Name" >Using an OnAdd rule to auto-create *section notes.</attribute>
+<attribute name="ReadCount" >46</attribute>
+<attribute name="SelectionCount" >57</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >19</attribute>
-<text >By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processed—wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action field:    if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } The dialog should look like the following before you hit Ok:![120-onadd][]Repeat this process with the `*section` prototype.What should happen in your document now is that whenever you add a new note to your document under notes using the `*article` or `*section` prototype, that new child will be assigned to the `*section` prototype—unless it already has a prototype (eg. having been dragged in from elsewhere, or having been given a prototype by other means).  This is pretty powerful: It means that you can set up outline container notes that establish defaults over their contents without requiring manual work beyond creating children.[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;</text>
+<text >There&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processes—wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action field:    if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } The dialog should look like the following before you hit Ok:![120-onadd][]Repeat this process with the `*section` prototype.What should happen in your document now is that whenever you add a new note to your document under notes using the `*article` or `*section` prototype, that new child will be assigned to the `*section` prototype—unless it already has a prototype (eg. having been dragged in from elsewhere, or having been given a prototype by other means).  This is pretty powerful: It means that you can set up outline container notes that establish defaults over their contents without requiring manual work beyond creating children.[120-onadd]: img/120-onadd.png &quot;OnAdd rule for sections&quot;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -812,9 +807,7 @@ Almost instantly, you should see the badge from your `*section` prototype appear
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 By assigning a prototype to one or many notes, you can affect sweeping changes across your document. So far, this has just consisted of a largely cosmetic icon badge in your outline. But, since Tinderbox is mostly driven by notes and attributes, this simple mechanism can perform some very interesting tricks.\par
-\par
-However, before we get to those tricks, there&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processed\u8212 wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 There&apos;s one more way to apply a prototype that&apos;s worth showing here. You&apos;ve applied a prototype to a single note, and then used Quickstamp to apply a prototype to many notes. But, those are manual processes\u8212 wouldn&apos;t it be nice if you could get a prototype automatically applied to certain notes when you create them?\par
 \par
 As it turns out, this is what the &quot;OnAdd Action&quot; field in the note details dialog can do. Open up the details for the `*article` prototype, and type in the following OnAdd Action field:\par
 \par
@@ -835,14 +828,15 @@ This is pretty powerful: It means that you can set up outline container notes th
 </item>
 <item ID="3358536841" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
-<attribute name="Modified" >2010-06-05T02:41:00-04:00</attribute>
-<attribute name="Name" >Build and enable templates for HTML export</attribute>
-<attribute name="ReadCount" >13</attribute>
-<attribute name="SelectionCount" >28</attribute>
+<attribute name="Modified" >2010-06-05T17:29:00-04:00</attribute>
+<attribute name="Name" >Exporting the article as HTML</attribute>
+<attribute name="ReadCount" >45</attribute>
+<attribute name="SelectionCount" >69</attribute>
+<attribute name="WindowPlace" >Rect[ 486 293 1089 741]</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >20</attribute>
-<text >So, first, you used Tinderbox as an outliner. Then, you started using it as a word processor, writing content on top of your outline. After that, you started augmenting outline notes with prototypes describing their respective semantic purposes (ie. `*article` vs `*section`).This is the point where you can start building automated processing and intelligence around your content.  As far as the scope of this tutorial goes, we&apos;ll limit things to producing an HTML page from your document.</text>
+<text >First, you used Tinderbox as an outliner to rough out an article. Then, you used it as a word processor, writing content on top of your outline. After that, you augmented outline notes with prototypes describing their respective intents (ie. `*article` vs `*section`).This is the point where Tinderbox starts to shine: Through the use of notes, attributes, and prototypes, you can begin building automated processing and intelligence around your content. As far as the scope of this tutorial goes, though, we&apos;ll limit things to producing an HTML page from your document. To facilitate this, Tinderbox offers powerful templating and export capabilities that can be highly customized via the same tools you use to capture thoughts and create content. Most of the features you&apos;ve seen up to this point in the tutorial will be used again to build an HTML page from your article outline and text.</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -853,143 +847,385 @@ This is pretty powerful: It means that you can set up outline container notes th
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 So, first, you used Tinderbox as an outliner. Then, you started using it as a word processor, writing content on top of your outline. After that, you started augmenting outline notes with prototypes describing their respective semantic purposes (ie. `*article` vs `*section`).\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 First, you used Tinderbox as an outliner to rough out an article. Then, you used it as a word processor, writing content on top of your outline. After that, you augmented outline notes with prototypes describing their respective intents (ie. `*article` vs `*section`).\par
 \par
-This is the point where you can start building automated processing and intelligence around your content.  As far as the scope of this tutorial goes, we&apos;ll limit things to producing an HTML page from your document.}}
+This is the point where Tinderbox starts to shine: Through the use of notes, attributes, and prototypes, you can begin building automated processing and intelligence around your content. \par
+\par
+As far as the scope of this tutorial goes, though, we&apos;ll limit things to producing an HTML page from your document. To facilitate this, Tinderbox offers powerful templating and export capabilities that can be highly customized via the same tools you use to capture thoughts and create content. Most of the features you&apos;ve seen up to this point in the tutorial will be used again to build an HTML page from your article outline and text.\par
+\par
+}}
 </rtf>
 <item ID="3358538105" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Name" >Create a *template prototype</attribute>
-<attribute name="SelectionCount" >1</attribute>
+<attribute name="Modified" >2010-06-05T14:16:00-04:00</attribute>
+<attribute name="Name" >Creating a *template prototype</attribute>
+<attribute name="ReadCount" >25</attribute>
+<attribute name="SelectionCount" >29</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >21</attribute>
+<text >HTML export can be accomplished in Tinderbox though the use of *export templates*. If you&apos;re a web developer, you&apos;re probably already be familiar with the concept. If not, maybe think of templates as akin to [mail merge][] in word processors: A single example of output applied to many instances of structured data.Export templates in Tinderbox can be files on disk, or taken from [the text of notes in your document][note-templates]. They&apos;re built using [a set of codes][export-codes] that allow you to reference notes, output attribute values, and construct enough logic to satisfy most export needs.For this tutorial, we&apos;ll use notes for templates. So, the next step is to create a prototype named &quot;`*template`&quot; under your Internals note, like so:![130-template-prototype][]Ensure that both the &quot;Can be a prototype&quot; and &quot;Can be a template&quot; checkboxes 	are checked in the note details dialog. In my document, I also gave the `*template` prototype a &quot;design&quot; badge, so as to make them easily identifiable in outlines.[mail merge]: http://en.wikipedia.org/wiki/Mail_merge[note-templates]: http://www.acrobatfaq.com/atbref5/index/ImportExportFormatting/Notescanbeexporttemplate.html[export-codes]: http://www.acrobatfaq.com/atbref5/index/ExportCodes/ExportCodes-FullListing.html &quot;Tinderbox export codes&quot;[130-template-prototype]: img/130-template-prototype.png &quot;Creating a template prototype&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 HTML export can be accomplished in Tinderbox though the use of *export templates*. If you&apos;re a web developer, you&apos;re probably already be familiar with the concept. If not, maybe think of templates as akin to [mail merge][] in word processors: A single example of output applied to many instances of structured data.\par
+\par
+Export templates in Tinderbox can be files on disk, or taken from [the text of notes in your document][note-templates]. They&apos;re built using [a set of codes][export-codes] that allow you to reference notes, output attribute values, and construct enough logic to satisfy most export needs.\par
+\par
+For this tutorial, we&apos;ll use notes for templates. So, the next step is to create a prototype named &quot;`*template`&quot; under your Internals note, like so:\par
+![130-template-prototype][]\par
+\par
+Ensure that both the &quot;Can be a prototype&quot; and &quot;Can be a template&quot; checkboxes \tab are checked in the note details dialog. In my document, I also gave the `*template` prototype a &quot;design&quot; badge, so as to make them easily identifiable in outlines.\par
+\par
+[mail merge]: http://en.wikipedia.org/wiki/Mail_merge\par
+[note-templates]: http://www.acrobatfaq.com/atbref5/index/ImportExportFormatting/Notescanbeexporttemplate.html\par
+[export-codes]: http://www.acrobatfaq.com/atbref5/index/ExportCodes/ExportCodes-FullListing.html &quot;Tinderbox export codes&quot;\par
+[130-template-prototype]: img/130-template-prototype.png &quot;Creating a template prototype&quot;}}
+</rtf>
 </item>
 <item ID="3358538102" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Name" >Create article.html</attribute>
-<attribute name="SelectionCount" >5</attribute>
+<attribute name="Modified" >2010-06-05T17:31:00-04:00</attribute>
+<attribute name="Name" >Creating an article.html template</attribute>
+<attribute name="ReadCount" >31</attribute>
+<attribute name="SelectionCount" >45</attribute>
+<attribute name="WindowPlace" >Rect[ 398 207 1066 634]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >22</attribute>
-<item ID="3358538461" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:21:00-04:00</attribute>
+<text >Alongside the Prototypes note under Internals, we also created a Templates container note. Within this note, create a new one named &quot;`article.html`&quot; using `*template` as a prototype. Your outline should now look like this:![140-article-tmpl-in-outline][]Edit the text of your new `article.html` note, pasting in the following code:	&lt;!DOCTYPE html&gt;	&lt;html&gt;		&lt;head&gt;			&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;			&lt;title&gt;^title^&lt;/title&gt;		&lt;/head&gt;		&lt;body&gt;			&lt;article&gt;				&lt;h1&gt;^title^&lt;/h1&gt;				^value($Text)^				^justChildren^			&lt;/article&gt;		&lt;/body&gt;	&lt;/html&gt;Giving a full explanation of [the export codes available for use][export-codes] in templates is beyond the scope of this tutorial, but hopefully you can make sense of most of it. It&apos;s HTML, with a few codes sprinkled in to pull content from an article note. You can add CSS and JavaScript includes if you like, and customize the markup however you like.One of the most interesting parts of this template, though, is the `^justChildren^` code: This code causes the export process to recurse into child notes in the outline, including the output of their export templates at this spot in the parent note outline.So, this `article.html` template provides the overall shell for the HTML page, including both content from the root note of the article and all its sections.[export-codes]: http://www.acrobatfaq.com/atbref5/index/ExportCodes.html[145-article-tmpl]: img/145-article-tmpl.png &quot;Article template note text&quot;[140-article-tmpl-in-outline]: img/140-article-tmpl-in-outline.png &quot;Article template in outline&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="336" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="593" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}
+{\f1\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Alongside the Prototypes note under Internals, we also created a Templates container note. Within this note, create a new one named &quot;`article.html`&quot; using `*template` as a prototype. Your outline should now look like this:\par
+![140-article-tmpl-in-outline][]\par
+\par
+Edit the text of your new `article.html` note, pasting in the following code:\par
+\par
+{\f1 \tab &lt;!DOCTYPE html&gt;\par
+\tab &lt;html&gt;\par
+\tab \tab &lt;head&gt;\par
+\tab \tab \tab &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\par
+\tab \tab \tab &lt;title&gt;^title^&lt;/title&gt;\par
+\tab \tab &lt;/head&gt;\par
+\tab \tab &lt;body&gt;\par
+\tab \tab \tab &lt;article&gt;\par
+\tab \tab \tab \tab &lt;h1&gt;^title^&lt;/h1&gt;\par
+\tab \tab \tab \tab ^value($Text)^\par
+\tab \tab \tab \tab ^justChildren^\par
+\tab \tab \tab &lt;/article&gt;\par
+\tab \tab &lt;/body&gt;\par
+\tab &lt;/html&gt;\par
+}\par
+Giving a full explanation of [the export codes available for use][export-codes] in templates is beyond the scope of this tutorial, but hopefully you can make sense of most of it. It&apos;s HTML, with a few codes sprinkled in to pull content from an article note. You can add CSS and JavaScript includes if you like, and customize the markup however you like.\par
+\par
+One of the most interesting parts of this template, though, is the `^justChildren^` code: This code causes the export process to recurse into child notes in the outline, including the output of their export templates at this spot in the parent note outline.\par
+\par
+So, this `article.html` template provides the overall shell for the HTML page, including both content from the root note of the article and all its sections.\par
+\par
+[export-codes]: http://www.acrobatfaq.com/atbref5/index/ExportCodes.html\par
+[145-article-tmpl]: img/145-article-tmpl.png &quot;Article template note text&quot;\par
+[140-article-tmpl-in-outline]: img/140-article-tmpl-in-outline.png &quot;Article template in outline&quot;}}
+</rtf>
+</item>
+<item ID="3358592941" Creator="lmorchard" >
+<attribute name="Created" >2010-06-05T14:29:00-04:00</attribute>
+<attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:21:00-04:00</attribute>
-<attribute name="Name" >Select the *article prototype and open a New HTML View</attribute>
-<attribute name="SelectionCount" >7</attribute>
-<attribute name="Xpos" >3.5</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >23</attribute>
-</item>
-<item ID="3358538521" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:22:00-04:00</attribute>
-<attribute name="Name" >Select the article.html template</attribute>
-<attribute name="SelectionCount" >5</attribute>
-<attribute name="Xpos" >7</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >24</attribute>
-</item>
+<attribute name="Modified" >2010-06-05T15:42:00-04:00</attribute>
+<attribute name="Name" >Using the article.html template</attribute>
+<attribute name="ReadCount" >34</attribute>
+<attribute name="SelectionCount" >20</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="WindowPlace" >Rect[ 448 119 1080 719]</attribute>
+<attribute name="Xpos" >6.5</attribute>
+<attribute name="Ypos" >1</attribute>
+<attribute name="id" >44</attribute>
+<text >Now that you&apos;ve got a template for use in exporting an article, it&apos;s time to use it. This is a natural match for the `*article` prototype you created earlier. To pair the two together, first select the `*article` prototype note and then choose `View &gt; New HTML View` from the menu.  You should see something like this:![150-article-html-view][]Within that view dialog, there&apos;s a drop down selector for the Template field. Listed in that selector should be your new `article.html` template, so choose it. This will set this template as the default for any HTML export of any note using `*article` as its prototype. For the current document, that&apos;s just one article, but it could apply to many thanks to the prototype inheritance mechanism.Additionally, ensure that the &quot;Export&quot; and &quot;Markup text&quot; checkboxes are checked in this dialog. This will ensure that the article is exported, and that the plain text content of these notes will be automatically wrapped in HTML tags according to some rules built into Tinderbox.  Note that the &quot;Export children&quot; checkbox is unchecked: This is because the `article.html` template uses the `^justChildren^` code to include exported children within the same HTML file, whereas &quot;Export children&quot; will cause the export process to produce separate files for all child notes. Doing both could be useful in, for example, blogs with index pages and individual entry pages displaying the same content.You should feel free to play with these settings to get a sense for what they do—their results should appear in the HTML View as a preview whenever you click the &quot;Update&quot; button. You can also use the &quot;Preview&quot; button to open the HTML in a browser of your choice, configured for the document. To choose a browser, try `Edit &gt; Document Preferences &gt; HTML` from the menu bar.[150-article-html-view]: img/150-article-html-view.png &quot;HTML view on *article&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Now that you&apos;ve got a template for use in exporting an article, it&apos;s time to use it. This is a natural match for the `*article` prototype you created earlier. To pair the two together, first select the `*article` prototype note and then choose `View &gt; New HTML View` from the menu.  You should see something like this:\par
+![150-article-html-view][]\par
+\par
+Within that view dialog, there&apos;s a drop down selector for the Template field. Listed in that selector should be your new `article.html` template, so choose it. This will set this template as the default for any HTML export of any note using `*article` as its prototype. For the current document, that&apos;s just one article, but it could apply to many thanks to the prototype inheritance mechanism.\par
+\par
+Additionally, ensure that the &quot;Export&quot; and &quot;Markup text&quot; checkboxes are checked in this dialog. This will ensure that the article is exported, and that the plain text content of these notes will be automatically wrapped in HTML tags according to some rules built into Tinderbox.  \par
+\par
+Note that the &quot;Export children&quot; checkbox is unchecked: This is because the `article.html` template uses the `^justChildren^` code to include exported children within the same HTML file, whereas &quot;Export children&quot; will cause the export process to produce separate files for all child notes. Doing both could be useful in, for example, blogs with index pages and individual entry pages displaying the same content.\par
+\par
+You should feel free to play with these settings to get a sense for what they do\u8212 their results should appear in the HTML View as a preview whenever you click the &quot;Update&quot; button. You can also use the &quot;Preview&quot; button to open the HTML in a browser of your choice, configured for the document. To choose a browser, try `Edit &gt; Document Preferences &gt; HTML` from the menu bar.\par
+\par
+[150-article-html-view]: img/150-article-html-view.png &quot;HTML view on *article&quot;}}
+</rtf>
 </item>
 <item ID="3358538522" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:22:00-04:00</attribute>
-<attribute name="Name" >Create section.html</attribute>
-<attribute name="SelectionCount" >8</attribute>
+<attribute name="Modified" >2010-06-05T17:36:00-04:00</attribute>
+<attribute name="Name" >Creating and using a section.html template</attribute>
+<attribute name="ReadCount" >56</attribute>
+<attribute name="SelectionCount" >40</attribute>
+<attribute name="WindowPlace" >Rect[ 445 174 1058 721]</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >25</attribute>
-<item ID="3358538881" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
+<text >Just as you did for `article.html`, create a new note under Internals / Templates, giving it a prototype of `*template`. Edit its text and paste in the following code:	&lt;section&gt;		&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;		^value($Text)^		^justChildren^	&lt;/section&gt;This looks much like the `article.html` template, though it introduces the attribute `OutlineDepth`. You can consult [a full list of note attributes][attribs], but this particular attribute is useful for determining the depth of a section within the outline. This allows you to programmatically produce section title elements progressing from `&lt;h1&gt;` to `&lt;h6&gt;` and beyond, depending on how deeply nested a subsection is within the article.And as you did for `*article`, open a new HTML View on the `*section` prototype and select the `section.html` template to pair the two, like so:![160-section-html-view][]The impact of doing this for the `*section` prototype is more wide-ranging than for the `*article` prototype: Since `*section` is applied to most of the notes in the outline, pairing the `section.html` template to `*section` causes that template to also be paired to every section in the article.So, thanks to `^justChildren^` and the use of prototypes, the `article.html` and `section.html` templates will be used to recursively export the content from all notes in your article as HTML.[160-section-html-view]: img/160-section-html-view.png[attribs]: http://www.acrobatfaq.com/atbref5/index/Attributes/SystemAttributeList.html</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="169" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="288" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}
+{\f1\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Just as you did for `article.html`, create a new note under Internals / Templates, giving it a prototype of `*template`. Edit its text and paste in the following code:\par
+\par
+{\f1 \tab &lt;section&gt;\par
+\tab \tab &lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;\par
+\tab \tab ^value($Text)^\par
+\tab \tab ^justChildren^\par
+\tab &lt;/section&gt;\par
+\par
+}This looks much like the `article.html` template, though it introduces the attribute `OutlineDepth`. You can consult [a full list of note attributes][attribs], but this particular attribute is useful for determining the depth of a section within the outline. This allows you to programmatically produce section title elements progressing from `&lt;h1&gt;` to `&lt;h6&gt;` and beyond, depending on how deeply nested a subsection is within the article.\par
+\par
+And as you did for `*article`, open a new HTML View on the `*section` prototype and select the `section.html` template to pair the two, like so:\par
+![160-section-html-view][]\par
+\par
+The impact of doing this for the `*section` prototype is more wide-ranging than for the `*article` prototype: Since `*section` is applied to most of the notes in the outline, pairing the `section.html` template to `*section` causes that template to also be paired to every section in the article.\par
+\par
+So, thanks to `^justChildren^` and the use of prototypes, the `article.html` and `section.html` templates will be used to recursively export the content from all notes in your article as HTML.\par
+\par
+[160-section-html-view]: img/160-section-html-view.png\par
+[attribs]: http://www.acrobatfaq.com/atbref5/index/Attributes/SystemAttributeList.html}}
+</rtf>
+</item>
+<item ID="3358594381" Creator="lmorchard" >
+<attribute name="Created" >2010-06-05T14:53:00-04:00</attribute>
+<attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
-<attribute name="Name" >Select the *section prototype and open a New HTML View</attribute>
-<attribute name="ReadCount" >1</attribute>
-<attribute name="SelectionCount" >12</attribute>
-<attribute name="Xpos" >4</attribute>
-<attribute name="Ypos" >0.5</attribute>
-<attribute name="id" >26</attribute>
-</item>
-<item ID="3358538882" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
-<attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
-<attribute name="Name" >Select the section.html template</attribute>
-<attribute name="SelectionCount" >9</attribute>
-<attribute name="Xpos" >7.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
-<attribute name="id" >27</attribute>
-</item>
-</item>
-<item ID="3358539241" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:34:00-04:00</attribute>
-<attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:34:00-04:00</attribute>
-<attribute name="Name" >Restrict exported notes by changing HTMLDontExport default to true</attribute>
-<attribute name="SelectionCount" >10</attribute>
-<attribute name="Xpos" >7</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >40</attribute>
-<item ID="3358539361" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:36:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:36:00-04:00</attribute>
-<attribute name="Name" >Remember to set HTMLDontExport to true on *article and *section prototypes</attribute>
-<attribute name="SelectionCount" >1</attribute>
-<attribute name="Xpos" >0</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >41</attribute>
-</item>
-</item>
-<item ID="3358538883" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T23:28:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:28:00-04:00</attribute>
-<attribute name="Name" >Open a new HTML View on the root article note and hit update</attribute>
-<attribute name="SelectionCount" >1</attribute>
-<attribute name="Xpos" >14</attribute>
-<attribute name="Ypos" >0</attribute>
-<attribute name="id" >28</attribute>
+<attribute name="Modified" >2010-06-05T15:51:00-04:00</attribute>
+<attribute name="Name" >Preview and perform an HTML export</attribute>
+<attribute name="ReadCount" >50</attribute>
+<attribute name="SelectionCount" >18</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="WindowPlace" >Rect[ 489 220 1080 742]</attribute>
+<attribute name="Xpos" >17</attribute>
+<attribute name="Ypos" >1</attribute>
+<attribute name="id" >45</attribute>
+<text >If you select the root note of your article and open an HTML View, you should now be able to see a preview of the full HTML page that will be exported using the templates you just created and paired with prototypes:![170-full-html-preview][]From the HTML View, you can also set a file name, extension, and destination folder for file output of the HTML export. Hitting the &quot;Export&quot; button will produce the desired file on disk. Additionally, once these attributes have been set, they&apos;ll be used as defaults in the future. This comes in handy for use with the `File &gt; Export as HTML...` menu item, which will perform HTML export on all notes without the need to open a new HTML View for each one individually. This doesn&apos;t matter as much for the present document, since there&apos;s only one article, but you can produce a collection of articles or even an entire website in this manner.[170-full-html-preview]: img/170-full-html-preview.png &quot;Full HTML export preview&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 If you select the root note of your article and open an HTML View, you should now be able to see a preview of the full HTML page that will be exported using the templates you just created and paired with prototypes:\par
+![170-full-html-preview][]\par
+\par
+From the HTML View, you can also set a file name, extension, and destination folder for file output of the HTML export. Hitting the &quot;Export&quot; button will produce the desired file on disk. \par
+\par
+Additionally, once these attributes have been set, they&apos;ll be used as defaults in the future. This comes in handy for use with the `File &gt; Export as HTML...` menu item, which will perform HTML export on all notes without the need to open a new HTML View for each one individually. This doesn&apos;t matter as much for the present document, since there&apos;s only one article, but you can produce a collection of articles or even an entire website in this manner.\par
+\par
+[170-full-html-preview]: img/170-full-html-preview.png &quot;Full HTML export preview&quot;}}
+</rtf>
 </item>
 </item>
 <item ID="3358538101" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
-<attribute name="Name" >Refine the HTML export templates</attribute>
-<attribute name="SelectionCount" >8</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-05T17:39:00-04:00</attribute>
+<attribute name="Name" >Refining the HTML export process</attribute>
+<attribute name="ReadCount" >20</attribute>
+<attribute name="SelectionCount" >43</attribute>
+<attribute name="WindowPlace" >Rect[ 456 220 1070 736]</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >29</attribute>
-<item ID="3358536842" Creator="lmorchard" >
-<attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
+<text >At this point, we&apos;re pretty much done. You got an article outlined and written, paired up with prototypes and HTML export templates. You can continue to edit the content and produce an HTML page whenever you like.But, there are a couple of rough edges left, plus a few bonus features we can throw in. This, by the way, is actually one of the dangers I&apos;ve found in using Tinderbox: resisting the temptation to constantly tweak and refine documents, rather than doing the work I built the documents for in the first place.</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 At this point, we&apos;re pretty much done. You got an article outlined and written, paired up with prototypes and HTML export templates. You can continue to edit the content and produce an HTML page whenever you like.\par
+\par
+But, there are a couple of rough edges left, plus a few bonus features we can throw in. This, by the way, is actually one of the dangers I&apos;ve found in using Tinderbox: resisting the temptation to constantly tweak and refine documents, rather than doing the work I built the documents for in the first place.\par
+}}
+</rtf>
+<item ID="3358539241" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T23:34:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T22:54:00-04:00</attribute>
-<attribute name="Name" >Add the $Id sequence attribute and include unique section IDs</attribute>
-<attribute name="SelectionCount" >10</attribute>
-<attribute name="Xpos" >0</attribute>
+<attribute name="Modified" >2010-06-05T17:41:00-04:00</attribute>
+<attribute name="Name" >Restricting which notes get exported</attribute>
+<attribute name="ReadCount" >17</attribute>
+<attribute name="SelectionCount" >37</attribute>
+<attribute name="WindowPlace" >Rect[ 467 193 1086 781]</attribute>
+<attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
-<attribute name="id" >30</attribute>
+<attribute name="id" >40</attribute>
+<text >If you tried the `File &gt; Export as HTML` menu item, you may have noticed some extra files and folders appearing in your export folder. (If you haven&apos;t tried it, you might want to do so now to follow along.)This is because, by default, all notes have an attribute `HTMLDontExport` with a value of `false`. This means that when the `Export as HTML` menu item command through the entire documents, all notes are exported *except* those with an `HTMLDontExport` attribute set to `true`. This attribute can be managed by the Quickstamp dialog, is also managed by the HTML View (eg. the Export checkbox), and via the `Note &gt; Get Info` menu item.There&apos;s also an attribute called `HTMLExportChildren`, which corresponds to the &quot;Export children&quot; checkbox in an HTML View. This acts like the inverse of `HTMLDontExport`, only applied to all the contents of a note.In particular, the Internals note and all of its children are not worth exporting to HTML. So, to exclude it from the process, select the note and open a new HTML View. Ensure that the &quot;Export&quot; and &quot;Export children&quot; checkboxes are unchecked.If you try another `Export as HTML` command to an empty folder, you should notice that the extra files and folders not related to your article&apos;s page are no longer generated by Tinderbox.</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 If you tried the `File &gt; Export as HTML` menu item, you may have noticed some extra files and folders appearing in your export folder. (If you haven&apos;t tried it, you might want to do so now to follow along.)\par
+\par
+This is because, by default, all notes have an attribute `HTMLDontExport` with a value of `false`. This means that when the `Export as HTML` menu item command through the entire documents, all notes are exported *except* those with an `HTMLDontExport` attribute set to `true`. This attribute can be managed by the Quickstamp dialog, is also managed by the HTML View (eg. the Export checkbox), and via the `Note &gt; Get Info` menu item.\par
+\par
+There&apos;s also an attribute called `HTMLExportChildren`, which corresponds to the &quot;Export children&quot; checkbox in an HTML View. This acts like the inverse of `HTMLDontExport`, only applied to all the contents of a note.\par
+\par
+In particular, the Internals note and all of its children are not worth exporting to HTML. So, to exclude it from the process, select the note and open a new HTML View. Ensure that the &quot;Export&quot; and &quot;Export children&quot; checkboxes are unchecked.\par
+\par
+If you try another `Export as HTML` command to an empty folder, you should notice that the extra files and folders not related to your article&apos;s page are no longer generated by Tinderbox.}}
+</rtf>
 </item>
 <item ID="3358538281" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:18:00-04:00</attribute>
-<attribute name="Modified" >2010-06-04T23:18:00-04:00</attribute>
-<attribute name="Name" >Use runCommand() to filter text through Markdown</attribute>
-<attribute name="SelectionCount" >4</attribute>
+<attribute name="Modified" >2010-06-05T17:42:00-04:00</attribute>
+<attribute name="Name" >Using runCommand() to filter text through Markdown</attribute>
+<attribute name="ReadCount" >19</attribute>
+<attribute name="SelectionCount" >18</attribute>
+<attribute name="WindowPlace" >Rect[ 410 193 1023 782]</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >31</attribute>
+<text >Throughout this tutorial, you also may have noticed that I&apos;m using the [Markdown][] syntax in my article text. If you tried to do the same, you may have wondered why your HTML exports didn&apos;t seem to support this formatting scheme.As it turns out, Markdown is not built into Tinderbox. Instead, export codes offer a tool you can use during to filter text through external shell commands. [As the creator of Tinderbox explains in a blog posting][markblog], this means that you can cause Tinderbox to execute `Markdown.pl` as a text filter during the HTML export process.To do this, you&apos;ll first need to [download the Markdown script][markdownload]. I did so, and copied `Markdown.pl` to `/usr/local/bin` on my Mac.Next, edit the source of your `article.html` and `section.html` templates. Look for these lines:	 ^value($Text)^Replace these expressions with the following template code:	 ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,$Text))^If you placed the `Markdown.pl` script in a directory other than `/usr/local/bin`, be sure to adjust the file path in `runCommand()`.Here, [the `runCommand()` operator][runcommand] does the work of executing `Markdown.pl` with your note&apos;s text as input. The output will be included in the HTML export.[runcommand]: http://www.acrobatfaq.com/atbref5/index/ActionsRules/Operators/FullOperatorList/runCommandcommandLineinp.html[markdown]: http://daringfireball.net/projects/markdown/[markblog]: http://www.markbernstein.org/Aug0701/Tinderbox4usingMarkdown.html[markdownload]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="818" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="834" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="893" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="895" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="897" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="957" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}
+{\f1\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 Throughout this tutorial, you also may have noticed that I&apos;m using the [Markdown][] syntax in my article text. If you tried to do the same, you may have wondered why your HTML exports didn&apos;t seem to support this formatting scheme.\par
+\par
+As it turns out, Markdown is not built into Tinderbox. Instead, export codes offer a tool you can use during to filter text through external shell commands. [As the creator of Tinderbox explains in a blog posting][markblog], this means that you can cause Tinderbox to execute `Markdown.pl` as a text filter during the HTML export process.\par
+\par
+To do this, you&apos;ll first need to [download the Markdown script][markdownload]. I did so, and copied `Markdown.pl` to `/usr/local/bin` on my Mac.\par
+\par
+Next, edit the source of your `article.html` and `section.html` templates. Look for these lines:\par
+\par
+\tab  {\f1 ^value($Text)^\par
+\par
+}Replace these expressions with the following template code:{\f1 \par
+\par
+}\tab  {\f1 ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,$Text))^}\par
+If you placed the `Markdown.pl` script in a directory other than `/usr/local/bin`, be sure to adjust the file path in `runCommand()`.\par
+\par
+Here, [the `runCommand()` operator][runcommand] does the work of executing `Markdown.pl` with your note&apos;s text as input. The output will be included in the HTML export.\par
+\par
+[runcommand]: http://www.acrobatfaq.com/atbref5/index/ActionsRules/Operators/FullOperatorList/runCommandcommandLineinp.html\par
+[markdown]: http://daringfireball.net/projects/markdown/\par
+[markblog]: http://www.markbernstein.org/Aug0701/Tinderbox4usingMarkdown.html\par
+[markdownload]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip}}
+</rtf>
+</item>
+<item ID="3358536842" Creator="lmorchard" >
+<attribute name="Created" >2010-06-04T22:54:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-05T17:52:00-04:00</attribute>
+<attribute name="Name" >Generating unique section IDs</attribute>
+<attribute name="ReadCount" >11</attribute>
+<attribute name="SelectionCount" >19</attribute>
+<attribute name="WindowPlace" >Rect[ 408 189 1057 767]</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >30</attribute>
+<text >A table of contents for navigating between sections is something that&apos;s useful for inclusion in long articles like this tutorial. I&apos;m not going to include a full explanation of how to build this with HTML export in this tutorial, but I will describe a necessary step toward building an HTML page with navigable sections.And, that first necessary step is assigning unique IDs to each section.Out of the box, a note in Tinderbox does not have unique a identifier accessible by attribute. However, you can create one yourself. [180-attributes-dialog]: img/180-attributes-dialog.png &quot;Attributes management dialog&quot;[181-attribute-creation]: img/181-attribute-creation.png &quot;Creating a new attribute&quot;</text>
+<styles >
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fmodern\fcharset77 Monaco;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 A table of contents for navigating between sections is something that&apos;s useful for inclusion in long articles like this tutorial. I&apos;m not going to include a full explanation of how to build this with HTML export in this tutorial, but I will describe a necessary step toward building an HTML page with navigable sections.\par
+\par
+And, that first necessary step is assigning unique IDs to each section.\par
+\par
+Out of the box, a note in Tinderbox does not have unique a identifier accessible by attribute. However, you can create one yourself. \par
+\par
+[180-attributes-dialog]: img/180-attributes-dialog.png &quot;Attributes management dialog&quot;\par
+[181-attribute-creation]: img/181-attribute-creation.png &quot;Creating a new attribute&quot;}}
+</rtf>
 </item>
 </item>
+<item ID="3358589521" Creator="lmorchard" >
+<attribute name="Created" >2010-06-05T13:32:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T13:32:00-04:00</attribute>
+<attribute name="Name" >Conclusion</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Xpos" >6.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >43</attribute>
 </item>
 </item>
 <item ID="3358537261" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:01:00-04:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Internals</attribute>
 <attribute name="ReadCount" >7</attribute>
-<attribute name="SelectionCount" >11</attribute>
+<attribute name="SelectionCount" >17</attribute>
 <attribute name="Separator" >true</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1007,14 +1243,13 @@ This is the point where you can start building automated processing and intellig
 <item ID="3358537383" Creator="lmorchard" >
 <attribute name="Badge" >web</attribute>
 <attribute name="Created" >2010-06-04T23:03:00-04:00</attribute>
-<attribute name="HTMLDontExport" >false</attribute>
 <attribute name="HTMLExportTemplate" >/Internals/Templates/article.html</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="Name" >*article</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } </attribute>
 <attribute name="ReadCount" >5</attribute>
-<attribute name="SelectionCount" >25</attribute>
+<attribute name="SelectionCount" >30</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >34</attribute>
@@ -1022,14 +1257,13 @@ This is the point where you can start building automated processing and intellig
 <item ID="3358537384" Creator="lmorchard" >
 <attribute name="Badge" >arrow right</attribute>
 <attribute name="Created" >2010-06-04T23:03:00-04:00</attribute>
-<attribute name="HTMLDontExport" >false</attribute>
 <attribute name="HTMLExportTemplate" >/Internals/Templates/section.html</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="Name" >*section</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; }</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >19</attribute>
+<attribute name="SelectionCount" >21</attribute>
 <attribute name="Xpos" >10</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >35</attribute>
@@ -1061,15 +1295,15 @@ This is the point where you can start building automated processing and intellig
 <item ID="3358538103" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T00:33:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T17:45:00-04:00</attribute>
 <attribute name="Name" >article.html</attribute>
-<attribute name="ReadCount" >60</attribute>
-<attribute name="SelectionCount" >24</attribute>
+<attribute name="ReadCount" >70</attribute>
+<attribute name="SelectionCount" >56</attribute>
 <attribute name="WindowPlace" >Rect[ 655 76 1084 414]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >38</attribute>
-<text >&lt;!DOCTYPE html !&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article&gt;			&lt;h1&gt;^title^&lt;/h1&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
+<text >&lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article id=&quot;article-^value($id)^&quot;&gt;			&lt;h1&gt;&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h1&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
 <styles >
  <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -1080,7 +1314,7 @@ This is the point where you can start building automated processing and intellig
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;!DOCTYPE html !&gt;\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;!DOCTYPE html&gt;\par
 &lt;html&gt;\par
 \tab &lt;head&gt;\par
 \tab \tab &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\par
@@ -1088,8 +1322,8 @@ This is the point where you can start building automated processing and intellig
 \tab \tab &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;\par
 \tab &lt;/head&gt;\par
 \tab &lt;body&gt;\par
-\tab \tab &lt;article&gt;\par
-\tab \tab \tab &lt;h1&gt;^title^&lt;/h1&gt;\par
+\tab \tab &lt;article id=&quot;article-^value($id)^&quot;&gt;\par
+\tab \tab \tab &lt;h1&gt;&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h1&gt;\par
 \tab \tab \tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
 \tab \tab \tab ^justChildren^\par
 \tab \tab &lt;/article&gt;\par
@@ -1103,15 +1337,15 @@ This is the point where you can start building automated processing and intellig
 <attribute name="Created" >2010-06-04T23:22:00-04:00</attribute>
 <attribute name="HTMLExportTemplate" >/Internals/Templates/section.html</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-04T23:33:00-04:00</attribute>
+<attribute name="Modified" >2010-06-05T17:45:00-04:00</attribute>
 <attribute name="Name" >section.html</attribute>
-<attribute name="ReadCount" >36</attribute>
-<attribute name="SelectionCount" >15</attribute>
+<attribute name="ReadCount" >60</attribute>
+<attribute name="SelectionCount" >22</attribute>
 <attribute name="WindowPlace" >Rect[ 707 462 1178 812]</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >39</attribute>
-<text >&lt;section id=&quot;sect-^value($id)^&quot;&gt;	&lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;	^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^	^justChildren^&lt;/section&gt;</text>
+<text >&lt;section id=&quot;section-^value($id)^&quot;&gt;	&lt;h^value($OutlineDepth)^&gt;&lt;a href=&quot;#section-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h^value($OutlineDepth)^&gt;	^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^	^justChildren^&lt;/section&gt;</text>
 <styles >
  <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -1122,8 +1356,8 @@ This is the point where you can start building automated processing and intellig
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;section id=&quot;sect-^value($id)^&quot;&gt;\par
-\tab &lt;h^value($OutlineDepth)^&gt;^title^&lt;/h^value($OutlineDepth)^&gt;\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;section id=&quot;section-^value($id)^&quot;&gt;\par
+\tab &lt;h^value($OutlineDepth)^&gt;&lt;a href=&quot;#section-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h^value($OutlineDepth)^&gt;\par
 \tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
 \tab ^justChildren^\par
 &lt;/section&gt;}}
@@ -1137,7 +1371,6 @@ This is the point where you can start building automated processing and intellig
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537083" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536301" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536361" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358537085" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536961" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536541" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358536841" destcreator="lmorchard"  />
@@ -1150,15 +1383,13 @@ This is the point where you can start building automated processing and intellig
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538105" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358538104" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538103" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538281" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538461" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538521" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538522" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358538104" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538523" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538881" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538882" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358538883" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358539241" destcreator="lmorchard"  />
-<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358539361" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358589521" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358592941" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358594381" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358602481" destcreator="lmorchard"  />
 </links>
 <macros >
 </macros>
@@ -1219,13 +1450,13 @@ This is the point where you can start building automated processing and intellig
    <HTMLViewFontSize > 2</HTMLViewFontSize>
    <ExportTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplatePath>
    <ExportTemplate > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplate>
-   <ExportTextTemplate > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplate>
+   <ExportTextTemplate > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:title and text</ExportTextTemplate>
    <RoadmapWindowWidth > 0</RoadmapWindowWidth>
    <RoadmapWindowHeight > 0</RoadmapWindowHeight>
    <ExportTextCreator > 1</ExportTextCreator>
    <TextExportViewFont > Lucida Grande</TextExportViewFont>
    <TextExportViewFontSize > 2</TextExportViewFontSize>
-   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:title and text</ExportTextTemplatePath>
    <ExportTextHelper > TextEdit</ExportTextHelper>
    <AskToDelete > 1</AskToDelete>
    <DailyTip > 1</DailyTip>
@@ -1241,8 +1472,8 @@ This is the point where you can start building automated processing and intellig
    <TipWindowY > 50</TipWindowY>
    <RegUserName > leslie orchard</RegUserName>
    <RegUserOrg > </RegUserOrg>
-   <CurrentAttributeClass > Appearance</CurrentAttributeClass>
-   <CurrentAttribute > Badge</CurrentAttribute>
+   <CurrentAttributeClass > HTML</CurrentAttributeClass>
+   <CurrentAttribute > HTMLExportChildren</CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
    <ExportFolder > Portafilter:Users:lorchard:Desktop:tinderbox-html5:</ExportFolder>
    <ReadOnly > 0</ReadOnly>
@@ -1281,7 +1512,7 @@ This is the point where you can start building automated processing and intellig
    <RenameWindowX > 569</RenameWindowX>
    <RenameWindowY > 95</RenameWindowY>
    <UpdateViewShown > 6/4/10 10:14 PM</UpdateViewShown>
-   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <ExportTextTemplatePath > Portafilter:Users:lorchard:Applications:Tinderbox.app:Contents:MacOS:templates:text:title and text</ExportTextTemplatePath>
    <LeftMargin > 2</LeftMargin>
    <RightMargin > -2</RightMargin>
    <ParagraphSpacing > 2</ParagraphSpacing>
@@ -1297,6 +1528,7 @@ This is the point where you can start building automated processing and intellig
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536841" Creator="lmorchard" type="explorer" bounds="Rect[ 138 148 1092 777]" x="0" y="0" scale="5" split="371" expanded="3358536108 3358536123 3358537085 3358536841 3358538101 3358537261 3358537262 " collapsed="3358537083 3358536961 3358536541 3358538102 3358538522 3358539241 3358537263 "  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 57 55 541 634]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358536901 3358536841 3358538101 3358537261 3358537262 3358537263 " collapsed="3358537083 3358536541 "  />
+<window ID="3358536842" Creator="lmorchard" type="text" bounds="Rect[ 408 189 1057 767]" x="0" y="0" scale="1"  />
 </windows>
 </tinderbox>
