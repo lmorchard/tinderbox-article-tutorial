@@ -460,7 +460,7 @@
 <attribute name="Modified" >2010-06-05T15:10:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
 <attribute name="ReadCount" >173</attribute>
-<attribute name="SelectionCount" >235</attribute>
+<attribute name="SelectionCount" >238</attribute>
 <attribute name="WindowPlace" >Rect[ 345 269 899 757]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1297,15 +1297,15 @@ The changes here add a new `id` attribute to the `&lt;section&gt;` element, and 
 </item>
 <item ID="3358589521" Creator="lmorchard" >
 <attribute name="Created" >2010-06-05T13:32:00-04:00</attribute>
-<attribute name="Modified" >2010-06-06T01:51:00-04:00</attribute>
+<attribute name="Modified" >2010-06-06T01:56:00-04:00</attribute>
 <attribute name="Name" >Conclusion</attribute>
-<attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >3</attribute>
+<attribute name="ReadCount" >12</attribute>
+<attribute name="SelectionCount" >15</attribute>
 <attribute name="WindowPlace" >Rect[ 527 177 1145 763]</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >43</attribute>
-<text >In this tutorial, I walked you through the following:* outlining an article;* writing an article;* augmenting an outline with prototypes;* building and using HTML export templates.The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article. Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements—please share, especially if I can include them in this tutorial! I hope that the end product from this tutorial turns out to be a useful tool for producing content for publishing on the web using Tinderbox. </text>
+<text >In this tutorial, I walked you through the following in using Tinderbox:* outlining an article;* writing an article;* augmenting an outline with prototypes;* building and using HTML export templates.I hope that the end product from this tutorial turns out to be a useful tool for producing content for publishing on the web using Tinderbox. The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements—please share, especially if I can include them in a future revision of this tutorial! </text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -1316,18 +1316,18 @@ The changes here add a new `id` attribute to the `&lt;section&gt;` element, and 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 In this tutorial, I walked you through the following:\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 In this tutorial, I walked you through the following in using Tinderbox:\par
 \par
 }{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li1080\ri360\fi0\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 * outlining an article;\par
 * writing an article;\par
 * augmenting an outline with prototypes;\par
 * building and using HTML export templates.\par
 }{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 \par
-The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article. \par
-\par
-Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements\u8212 please share, especially if I can include them in this tutorial! \par
-\par
 I hope that the end product from this tutorial turns out to be a useful tool for producing content for publishing on the web using Tinderbox. \par
+\par
+The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.\par
+\par
+Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements\u8212 please share, especially if I can include them in a future revision of this tutorial! \par
 }}
 </rtf>
 </item>
@@ -1644,8 +1644,7 @@ I hope that the end product from this tutorial turns out to be a useful tool for
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 57 55 541 634]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537083 3358536541 3358536901 3358536841 3358538101 3358536842 3358537262 3358537263 " collapsed="3358537261 "  />
 <window type="attributePalette" bounds="Rect[ 700 250 1100 466]" x="0" y="0" scale="1"  />
-<window ID="3358589521" Creator="lmorchard" type="text" bounds="Rect[ 527 177 1145 763]" x="0" y="0" scale="1"  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 57 55 541 634]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537083 3358536541 3358536901 3358536841 3358538101 3358536842 3358537262 3358537263 " collapsed="3358537261 "  />
 </windows>
 </tinderbox>
