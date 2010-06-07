@@ -462,8 +462,8 @@
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-07T01:20:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
-<attribute name="ReadCount" >181</attribute>
-<attribute name="SelectionCount" >251</attribute>
+<attribute name="ReadCount" >182</attribute>
+<attribute name="SelectionCount" >253</attribute>
 <attribute name="Twitter" >lmorchard</attribute>
 <attribute name="WindowPlace" >Rect[ 530 120 1084 608]</attribute>
 <attribute name="Xpos" >0</attribute>
@@ -1405,8 +1405,8 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-07T01:25:00-04:00</attribute>
 <attribute name="Name" >article.html</attribute>
-<attribute name="ReadCount" >94</attribute>
-<attribute name="SelectionCount" >80</attribute>
+<attribute name="ReadCount" >97</attribute>
+<attribute name="SelectionCount" >83</attribute>
 <attribute name="WindowPlace" >Rect[ 576 155 1152 629]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1716,6 +1716,5 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 </preferences>
 <windows >
 <window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 82 94 522 550]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537083 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358536541 3358536841 3358538101 "  />
-<window ID="3358538103" Creator="lmorchard" type="text" bounds="Rect[ 576 155 1152 629]" x="0" y="0" scale="1"  />
 </windows>
 </tinderbox>
