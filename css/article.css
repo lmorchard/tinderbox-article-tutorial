@@ -6,12 +6,19 @@ body {
     background: #999;
     color: #333;
 }
-article {
+article, footer {
     margin: 0 auto;
     padding: 1em 2em;
     display: block;
     width: 750px;
     background: #fefefe;
+}
+footer {
+    color: #999;
+    font-style: italic;
+}
+footer p {
+    font-size: 0.9em;
 }
 article .author, article .meta {
     color: #999;

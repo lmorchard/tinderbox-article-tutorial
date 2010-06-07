@@ -460,16 +460,16 @@
 <attribute name="FullName" >l.m.orchard</attribute>
 <attribute name="HTMLExportFileName" >article</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T15:10:00-04:00</attribute>
+<attribute name="Modified" >2010-06-07T01:20:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
-<attribute name="ReadCount" >175</attribute>
-<attribute name="SelectionCount" >249</attribute>
+<attribute name="ReadCount" >181</attribute>
+<attribute name="SelectionCount" >251</attribute>
 <attribute name="Twitter" >lmorchard</attribute>
-<attribute name="WindowPlace" >Rect[ 637 369 1191 857]</attribute>
+<attribute name="WindowPlace" >Rect[ 530 120 1084 608]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >1</attribute>
-<text >For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t write *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less—and if you approach it from that mindset both the price and user interface will baffle you.No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [heavy machinery][construction] for your brain.And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a tutorial on some things that have finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.[construction]: http://bit.ly/cBJBpX[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/[couchdb]: http://couchdb.apache.org/[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs</text>
+<text >This is a tutorial on writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial was written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -480,32 +480,23 @@
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 For almost 10 years now, I&apos;ve had an on-again / off-again relationship with [Tinderbox][] from [Eastgate Systems Inc][eastgate]. I&apos;ve long used outlines and mindmaps to get thoughts and out of my head and onto paper and screens. So, it&apos;s pretty inevitable that I&apos;d eventually be attracted to [Tinderbox][].\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is a tutorial on writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial was written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].\par
 \par
-But, the thing is, [Tinderbox][] is a complex *technology*. Note that I didn&apos;t write *application* or *utility*: [Tinderbox][] isn&apos;t a sleek little productivity app you can pick up for $20 or less\u8212 and if you approach it from that mindset both the price and user interface will baffle you.\par
-\par
-No, [Tinderbox][] is more like a hyperdimensional spreadsheet or a personal [CouchDB][]. [Tinderbox][] is a platform for capturing your thoughts and wrapping them in a scaffold of machine intelligence. The learning curve follows a crazy-steep [Sigmoid function][]. But, the complexity is there for a reason. This isn&apos;t a commuter vehicle; this is a fully-articulated piece of [heavy machinery][construction] for your brain.\par
-\par
-And, as such, you&apos;ll probably require a bit of training before you can get productive. So, apropos of [my notion of writing for myself][cobwebs], I thought I might throw together a tutorial on some things that have finally come together for me. If I do this right, it&apos;ll be a tutorial I wish I&apos;d had a few years ago.\par
-\par
-[construction]: http://bit.ly/cBJBpX\par
+[github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
-[eastgate]: http://www.eastgate.com/\par
-[couchdb]: http://couchdb.apache.org/\par
-[Sigmoid function]: http://en.wikipedia.org/wiki/Sigmoid_function\par
-[cobwebs]: http://decafbad.com/blog/2010/03/10/pondering-the-cobwebs}}
+}}
 </rtf>
 <item ID="3358537083" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
-<attribute name="Modified" >2010-06-06T15:00:00-04:00</attribute>
+<attribute name="Modified" >2010-06-07T01:14:00-04:00</attribute>
 <attribute name="Name" >Writing an article in Tinderbox</attribute>
-<attribute name="ReadCount" >46</attribute>
-<attribute name="SelectionCount" >84</attribute>
+<attribute name="ReadCount" >49</attribute>
+<attribute name="SelectionCount" >93</attribute>
 <attribute name="WindowPlace" >Rect[ 352 278 955 798]</attribute>
 <attribute name="Xpos" >2</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >2</attribute>
-<text >This will be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -516,15 +507,14 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This will be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].\par
-\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 \par
 I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
 \par
 [github]: http://github.com/lmorchard/tinderbox-article-tutorial\par
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [eastgate]: http://www.eastgate.com/}}
 </rtf>
-<strike >477 1 </strike>
+<strike >192 1 </strike>
 <item ID="3358536301" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:45:00-04:00</attribute>
 <attribute name="Modified" >2010-06-05T15:14:00-04:00</attribute>
@@ -1413,15 +1403,15 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <item ID="3358538103" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-07T01:02:00-04:00</attribute>
+<attribute name="Modified" >2010-06-07T01:25:00-04:00</attribute>
 <attribute name="Name" >article.html</attribute>
-<attribute name="ReadCount" >92</attribute>
-<attribute name="SelectionCount" >77</attribute>
+<attribute name="ReadCount" >94</attribute>
+<attribute name="SelectionCount" >80</attribute>
 <attribute name="WindowPlace" >Rect[ 576 155 1152 629]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >38</attribute>
-<text >&lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/article.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article id=&quot;article-^value($id)^&quot;&gt;			&lt;h1&gt;				^if($URL)^&lt;a href=&quot;^value($URL)^&quot;&gt;^title^&lt;/a&gt;				^else^&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;				^endIf^			&lt;/h1&gt;			&lt;p class=&quot;meta&quot;&gt;				Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;			&lt;/p&gt;					&lt;p class=&quot;author vcard&quot;&gt;				by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;				^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^				^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^			&lt;/p&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			&lt;div class=&quot;toc&quot;&gt;				&lt;h2&gt;Table of Contents&lt;/h2&gt;				&lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;			&lt;/div&gt;			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/article.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
+<text >&lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/article.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article id=&quot;article-^value($id)^&quot;&gt;			&lt;h1&gt;				^if($URL)^&lt;a href=&quot;^value($URL)^&quot;&gt;^title^&lt;/a&gt;				^else^&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;				^endIf^			&lt;/h1&gt;			&lt;p class=&quot;meta&quot;&gt;				Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;			&lt;/p&gt;					&lt;p class=&quot;author vcard&quot;&gt;				by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;				^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^				^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^			&lt;/p&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			&lt;div class=&quot;toc&quot;&gt;				&lt;h2&gt;Table of Contents&lt;/h2&gt;				&lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;			&lt;/div&gt;			^justChildren^		&lt;/article&gt;		&lt;footer&gt;&lt;p&gt;			Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;			by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;			^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^			^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^		&lt;/p&gt;&lt;/footer&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/article.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="10" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -1461,6 +1451,12 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 \tab \tab \tab &lt;/div&gt;\par
 \tab \tab \tab ^justChildren^\par
 \tab \tab &lt;/article&gt;\par
+\tab \tab &lt;footer&gt;&lt;p&gt;\par
+\tab \tab \tab Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;\par
+\tab \tab \tab by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;\par
+\tab \tab \tab ^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^\par
+\tab \tab \tab ^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^\par
+\tab \tab &lt;/p&gt;&lt;/footer&gt;\par
 \tab \tab &lt;script type=&quot;text/javascript&quot; src=&quot;js/article.js&quot;&gt;&lt;/script&gt;\par
 \tab &lt;/body&gt;\par
 &lt;/html&gt;\par
@@ -1719,6 +1715,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 583 227 1023 683]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358537083 3358536541 3358536841 3358538101 "  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 82 94 522 550]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537083 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358536541 3358536841 3358538101 "  />
+<window ID="3358538103" Creator="lmorchard" type="text" bounds="Rect[ 576 155 1152 629]" x="0" y="0" scale="1"  />
 </windows>
 </tinderbox>
