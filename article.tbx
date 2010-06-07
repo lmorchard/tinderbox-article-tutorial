@@ -408,7 +408,7 @@
 </attrib>
 </attrib>
 <attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="50" >
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="56" >
 </attrib>
 </attrib>
 </attrib>
@@ -454,14 +454,18 @@
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="3358536123" Creator="lmorchard" >
+<attribute name="Address" >http://lmorchard.com/</attribute>
 <attribute name="Created" >2010-06-04T22:42:00-04:00</attribute>
+<attribute name="Email" >l.m.orchard@pobox.com</attribute>
+<attribute name="FullName" >l.m.orchard</attribute>
 <attribute name="HTMLExportFileName" >article</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-05T15:10:00-04:00</attribute>
 <attribute name="Name" >Creating an article in HTML with Tinderbox</attribute>
-<attribute name="ReadCount" >173</attribute>
-<attribute name="SelectionCount" >238</attribute>
-<attribute name="WindowPlace" >Rect[ 345 269 899 757]</attribute>
+<attribute name="ReadCount" >175</attribute>
+<attribute name="SelectionCount" >249</attribute>
+<attribute name="Twitter" >lmorchard</attribute>
+<attribute name="WindowPlace" >Rect[ 637 369 1191 857]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >1</attribute>
@@ -493,15 +497,15 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 </rtf>
 <item ID="3358537083" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:58:00-04:00</attribute>
-<attribute name="Modified" >2010-06-06T00:28:00-04:00</attribute>
+<attribute name="Modified" >2010-06-06T15:00:00-04:00</attribute>
 <attribute name="Name" >Writing an article in Tinderbox</attribute>
-<attribute name="ReadCount" >45</attribute>
-<attribute name="SelectionCount" >59</attribute>
+<attribute name="ReadCount" >46</attribute>
+<attribute name="SelectionCount" >84</attribute>
 <attribute name="WindowPlace" >Rect[ 352 278 955 798]</attribute>
 <attribute name="Xpos" >2</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >2</attribute>
-<text >This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github]. I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
+<text >This will be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you—though building your own may help more.[github]: http://github.com/lmorchard/tinderbox-article-tutorial[tinderbox]: http://www.eastgate.com/Tinderbox/[eastgate]: http://www.eastgate.com/</text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -512,7 +516,7 @@ And, as such, you&apos;ll probably require a bit of training before you can get 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This is going to be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github]. \par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 This will be a tutorial about writing an article with [Tinderbox][] for publication as HTML. In fact, this tutorial written using Tinderbox, so it&apos;ll serve as its own example. You&apos;re reading the HTML export now, and the complete source documents can be [found here on GitHub][github].\par
 \par
 I&apos;ll build things up incrementally throughout the tutorial, documenting something close to the actual process I went through along the way. Following along with the final product may help you{\strike \u8212 }though building your own may help more.\par
 \par
@@ -520,13 +524,13 @@ I&apos;ll build things up incrementally throughout the tutorial, documenting som
 [tinderbox]: http://www.eastgate.com/Tinderbox/\par
 [eastgate]: http://www.eastgate.com/}}
 </rtf>
-<strike >485 1 </strike>
+<strike >477 1 </strike>
 <item ID="3358536301" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:45:00-04:00</attribute>
 <attribute name="Modified" >2010-06-05T15:14:00-04:00</attribute>
 <attribute name="Name" >Outline the article&apos;s sections</attribute>
 <attribute name="ReadCount" >49</attribute>
-<attribute name="SelectionCount" >54</attribute>
+<attribute name="SelectionCount" >55</attribute>
 <attribute name="WindowPlace" >Rect[ 330 237 986 706]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -562,7 +566,7 @@ This is basic outlining, one of the simpler features of Tinderbox and many produ
 <attribute name="Modified" >2010-06-06T00:31:00-04:00</attribute>
 <attribute name="Name" >Write the article&apos;s text in notes</attribute>
 <attribute name="ReadCount" >43</attribute>
-<attribute name="SelectionCount" >66</attribute>
+<attribute name="SelectionCount" >67</attribute>
 <attribute name="WindowPlace" >Rect[ 205 265 909 838]</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -604,7 +608,7 @@ One of the main drawbacks of using the Explorer View, though, is that it&apos;s 
 <attribute name="Modified" >2010-06-05T17:01:00-04:00</attribute>
 <attribute name="Name" >Using prototypes to augment notes</attribute>
 <attribute name="ReadCount" >45</attribute>
-<attribute name="SelectionCount" >73</attribute>
+<attribute name="SelectionCount" >77</attribute>
 <attribute name="WindowPlace" >Rect[ 693 79 1297 636]</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -635,7 +639,7 @@ Now, say you&apos;re done composing the content of your article. You&apos;ve got
 <attribute name="Modified" >2010-06-06T00:38:00-04:00</attribute>
 <attribute name="Name" >Creating an &quot;Internals&quot; note to contain utility notes</attribute>
 <attribute name="ReadCount" >47</attribute>
-<attribute name="SelectionCount" >65</attribute>
+<attribute name="SelectionCount" >66</attribute>
 <attribute name="WindowPlace" >Rect[ 589 242 1214 855]</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -713,7 +717,7 @@ Notice the drop down selection for Prototype. In this list, you should see the n
 <attribute name="Modified" >2010-06-06T00:41:00-04:00</attribute>
 <attribute name="Name" >Using badges in outlines with prototypes</attribute>
 <attribute name="ReadCount" >21</attribute>
-<attribute name="SelectionCount" >26</attribute>
+<attribute name="SelectionCount" >35</attribute>
 <attribute name="WindowPlace" >Rect[ 423 179 1062 753]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -835,7 +839,7 @@ This is pretty powerful: It means that you can set up outline container notes th
 <attribute name="Modified" >2010-06-06T00:49:00-04:00</attribute>
 <attribute name="Name" >Exporting the article as HTML</attribute>
 <attribute name="ReadCount" >49</attribute>
-<attribute name="SelectionCount" >75</attribute>
+<attribute name="SelectionCount" >78</attribute>
 <attribute name="WindowPlace" >Rect[ 486 293 1089 741]</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1072,7 +1076,7 @@ Additionally, once these attributes have been set, they&apos;ll be used as defau
 <attribute name="Modified" >2010-06-06T00:59:00-04:00</attribute>
 <attribute name="Name" >Refining the document and export process</attribute>
 <attribute name="ReadCount" >27</attribute>
-<attribute name="SelectionCount" >60</attribute>
+<attribute name="SelectionCount" >63</attribute>
 <attribute name="WindowPlace" >Rect[ 456 220 1070 736]</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1298,9 +1302,9 @@ The changes here add a new `id` attribute to the `&lt;section&gt;` element, and 
 <item ID="3358589521" Creator="lmorchard" >
 <attribute name="Created" >2010-06-05T13:32:00-04:00</attribute>
 <attribute name="Modified" >2010-06-06T01:56:00-04:00</attribute>
-<attribute name="Name" >Conclusion</attribute>
+<attribute name="Name" >Summary</attribute>
 <attribute name="ReadCount" >12</attribute>
-<attribute name="SelectionCount" >15</attribute>
+<attribute name="SelectionCount" >20</attribute>
 <attribute name="WindowPlace" >Rect[ 527 177 1145 763]</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1339,7 +1343,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Internals</attribute>
 <attribute name="ReadCount" >7</attribute>
-<attribute name="SelectionCount" >18</attribute>
+<attribute name="SelectionCount" >21</attribute>
 <attribute name="Separator" >true</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1350,7 +1354,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Prototypes</attribute>
 <attribute name="ReadCount" >4</attribute>
-<attribute name="SelectionCount" >12</attribute>
+<attribute name="SelectionCount" >14</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >33</attribute>
@@ -1359,11 +1363,12 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Created" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="HTMLExportTemplate" >/Internals/Templates/article.html</attribute>
 <attribute name="IsPrototype" >true</attribute>
+<attribute name="KeyAttributes" >FullName;Email;Address;Twitter;Organization</attribute>
 <attribute name="Modified" >2010-06-04T23:03:00-04:00</attribute>
 <attribute name="Name" >*article</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; } </attribute>
 <attribute name="ReadCount" >5</attribute>
-<attribute name="SelectionCount" >30</attribute>
+<attribute name="SelectionCount" >38</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >34</attribute>
@@ -1377,7 +1382,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Name" >*section</attribute>
 <attribute name="OnAdd" >if ($Prototype=&quot;&quot;) { $Prototype=&quot;*section&quot; }</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >21</attribute>
+<attribute name="SelectionCount" >25</attribute>
 <attribute name="Xpos" >10</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >35</attribute>
@@ -1390,7 +1395,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Modified" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="Name" >*template</attribute>
 <attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >5</attribute>
+<attribute name="SelectionCount" >9</attribute>
 <attribute name="Xpos" >13.5</attribute>
 <attribute name="Ypos" >1</attribute>
 <attribute name="id" >36</attribute>
@@ -1402,46 +1407,62 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Modified" >2010-06-04T23:01:00-04:00</attribute>
 <attribute name="Name" >Templates</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >7</attribute>
+<attribute name="SelectionCount" >9</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >37</attribute>
 <item ID="3358538103" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T23:15:00-04:00</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2010-06-05T17:45:00-04:00</attribute>
+<attribute name="Modified" >2010-06-07T01:02:00-04:00</attribute>
 <attribute name="Name" >article.html</attribute>
-<attribute name="ReadCount" >71</attribute>
-<attribute name="SelectionCount" >65</attribute>
-<attribute name="WindowPlace" >Rect[ 655 76 1084 414]</attribute>
+<attribute name="ReadCount" >91</attribute>
+<attribute name="SelectionCount" >76</attribute>
+<attribute name="WindowPlace" >Rect[ 576 155 1152 629]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >38</attribute>
-<text >&lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article id=&quot;article-^value($id)^&quot;&gt;			&lt;h1&gt;&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h1&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
+<text >&lt;!DOCTYPE html&gt;&lt;html&gt;	&lt;head&gt;		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;		&lt;title&gt;^title^&lt;/title&gt;		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/article.css&quot; /&gt;	&lt;/head&gt;	&lt;body&gt;		&lt;article id=&quot;article-^value($id)^&quot;&gt;			&lt;h1&gt;				^if($URL)^&lt;a href=&quot;^value($URL)^&quot;&gt;^title^&lt;/a&gt;				^else^&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;				^endIf^			&lt;/h1&gt;			&lt;p class=&quot;meta&quot;&gt;				Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;			&lt;/p&gt;					&lt;p class=&quot;author vcard&quot;&gt;				by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;				^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^				^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^			&lt;/p&gt;			^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^			&lt;div class=&quot;toc&quot;&gt;				&lt;h2&gt;Table of Contents&lt;/h2&gt;				&lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;			&lt;/div&gt;			^justChildren^		&lt;/article&gt;		&lt;script type=&quot;text/javascript&quot; src=&quot;js/article.js&quot;&gt;&lt;/script&gt;	&lt;/body&gt;&lt;/html&gt;</text>
 <styles >
- <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+ <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="10" height="0" ascent="0" color="#000000"  />
 </styles>
 <rtf >{\rtf1\mac
 {\fonttbl
-{\f0\fnil\fcharset77 Lucida Grande;}}
+{\f0\fmodern\fcharset77 Monaco;}}
 {\colortbl
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;!DOCTYPE html&gt;\par
+{\pard\plain\uc0\f0\fs20\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;!DOCTYPE html&gt;\par
 &lt;html&gt;\par
 \tab &lt;head&gt;\par
 \tab \tab &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\par
 \tab \tab &lt;title&gt;^title^&lt;/title&gt;\par
-\tab \tab &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot; /&gt;\par
+\tab \tab &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/article.css&quot; /&gt;\par
 \tab &lt;/head&gt;\par
 \tab &lt;body&gt;\par
 \tab \tab &lt;article id=&quot;article-^value($id)^&quot;&gt;\par
-\tab \tab \tab &lt;h1&gt;&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;&lt;/h1&gt;\par
+\tab \tab \tab &lt;h1&gt;\par
+\tab \tab \tab \tab ^if($URL)^&lt;a href=&quot;^value($URL)^&quot;&gt;^title^&lt;/a&gt;\par
+\tab \tab \tab \tab ^else^&lt;a href=&quot;#article-^value($id)^&quot;&gt;^title^&lt;/a&gt;\par
+\tab \tab \tab \tab ^endIf^\par
+\tab \tab \tab &lt;/h1&gt;\par
+\tab \tab \tab &lt;p class=&quot;meta&quot;&gt;\par
+\tab \tab \tab \tab Last updated at &lt;span class=&quot;modified&quot;&gt;^lastModified(this, &quot;*&quot;)^&lt;/span&gt;\par
+\tab \tab \tab &lt;/p&gt;\tab \tab \par
+\tab \tab \tab &lt;p class=&quot;author vcard&quot;&gt;\par
+\tab \tab \tab \tab by &lt;a class=&quot;fn url&quot; href=&quot;^value($Address)^&quot;&gt;^value($FullName)^&lt;/a&gt;\par
+\tab \tab \tab \tab ^if($Email)^ / &lt;a class=&quot;email&quot; href=&quot;mailto:^value($Email)^&quot;&gt;^value($Email)^&lt;/a&gt;^endIf^\par
+\tab \tab \tab \tab ^if($Twitter)^ / &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/^value($Twitter)^&quot;&gt;@^value($Twitter)&lt;/a&gt;^endIf^\par
+\tab \tab \tab &lt;/p&gt;\par
 \tab \tab \tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
+\tab \tab \tab &lt;div class=&quot;toc&quot;&gt;\par
+\tab \tab \tab \tab &lt;h2&gt;Table of Contents&lt;/h2&gt;\par
+\tab \tab \tab \tab &lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;\par
+\tab \tab \tab &lt;/div&gt;\par
 \tab \tab \tab ^justChildren^\par
 \tab \tab &lt;/article&gt;\par
-\tab \tab &lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;\par
+\tab \tab &lt;script type=&quot;text/javascript&quot; src=&quot;js/article.js&quot;&gt;&lt;/script&gt;\par
 \tab &lt;/body&gt;\par
 &lt;/html&gt;\par
 }}
@@ -1453,8 +1474,8 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-05T17:45:00-04:00</attribute>
 <attribute name="Name" >section.html</attribute>
-<attribute name="ReadCount" >61</attribute>
-<attribute name="SelectionCount" >37</attribute>
+<attribute name="ReadCount" >62</attribute>
+<attribute name="SelectionCount" >42</attribute>
 <attribute name="WindowPlace" >Rect[ 707 462 1178 812]</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1475,6 +1496,36 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 \tab ^value(runCommand(&quot;perl /usr/local/bin/Markdown.pl&quot;,($Text)))^\par
 \tab ^justChildren^\par
 &lt;/section&gt;}}
+</rtf>
+</item>
+<item ID="3358675141" Creator="lmorchard" >
+<attribute name="Created" >2010-06-06T13:19:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-06T13:32:00-04:00</attribute>
+<attribute name="Name" >toc-section.html</attribute>
+<attribute name="ReadCount" >19</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="WindowPlace" >Rect[ 619 569 1319 869]</attribute>
+<attribute name="Xpos" >7</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >51</attribute>
+<text >&lt;li&gt;&lt;a href=&quot;#section-^value($id)^&quot;&gt;^title^&lt;/a&gt;	^if(ChildCount&gt;0)^		&lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;	^endIf^&lt;/li&gt;</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 &lt;li&gt;&lt;a href=&quot;#section-^value($id)^&quot;&gt;^title^&lt;/a&gt;\par
+\tab ^if(ChildCount&gt;0)^\par
+\tab \tab &lt;ul&gt;^justChildren(toc-section.html)^&lt;/ul&gt;\par
+\tab ^endIf^\par
+&lt;/li&gt;\par
+}}
 </rtf>
 </item>
 </item>
@@ -1506,6 +1557,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358602481" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358630951" destcreator="lmorchard"  />
 <link name="prototype" sourceid="3358537384" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358630952" destcreator="lmorchard"  />
+<link name="prototype" sourceid="3358538104" sourcecreator="lmorchard" sstart="-1" slen="0" style="0" destid="3358675141" destcreator="lmorchard"  />
 </links>
 <macros >
 </macros>
@@ -1579,7 +1631,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
    <WarnEditingDefault > 0</WarnEditingDefault>
    <WarnDuplicateName > 0</WarnDuplicateName>
    <Version > version 5.5</Version>
-   <PreferencePane > 2</PreferencePane>
+   <PreferencePane > 3</PreferencePane>
    <Fontmap > 2
  4 Monaco
  1024 Lucida Grande
@@ -1588,8 +1640,8 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
    <TipWindowY > 50</TipWindowY>
    <RegUserName > leslie orchard</RegUserName>
    <RegUserOrg > </RegUserOrg>
-   <CurrentAttributeClass > HTML</CurrentAttributeClass>
-   <CurrentAttribute > HTMLExportChildren</CurrentAttribute>
+   <CurrentAttributeClass > TextFormat</CurrentAttributeClass>
+   <CurrentAttribute > KeyAttributes</CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
    <ExportFolder > Portafilter:Users:lorchard:Desktop:tinderbox-html5:</ExportFolder>
    <ReadOnly > 0</ReadOnly>
@@ -1644,7 +1696,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window type="attributePalette" bounds="Rect[ 700 250 1100 466]" x="0" y="0" scale="1"  />
-<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 57 55 541 634]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358537083 3358536541 3358536901 3358536841 3358538101 3358536842 3358537262 3358537263 " collapsed="3358537261 "  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 967 151 1407 607]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358537083 3358536541 3358536841 3358538101 "  />
+<window ID="3358538103" Creator="lmorchard" type="text" bounds="Rect[ 576 155 1152 629]" x="0" y="0" scale="1"  />
 </windows>
 </tinderbox>
