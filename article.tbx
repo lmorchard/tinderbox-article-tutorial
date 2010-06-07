@@ -408,7 +408,7 @@
 </attrib>
 </attrib>
 <attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="56" >
+<attrib Name="id" parent="User" editable="1" visibleInEditor="1" type="2" sequential="1" default="57" >
 </attrib>
 </attrib>
 </attrib>
@@ -608,7 +608,7 @@ One of the main drawbacks of using the Explorer View, though, is that it&apos;s 
 <attribute name="Modified" >2010-06-05T17:01:00-04:00</attribute>
 <attribute name="Name" >Using prototypes to augment notes</attribute>
 <attribute name="ReadCount" >45</attribute>
-<attribute name="SelectionCount" >77</attribute>
+<attribute name="SelectionCount" >78</attribute>
 <attribute name="WindowPlace" >Rect[ 693 79 1297 636]</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -637,9 +637,9 @@ Now, say you&apos;re done composing the content of your article. You&apos;ve got
 <item ID="3358536961" Creator="lmorchard" >
 <attribute name="Created" >2010-06-04T22:56:00-04:00</attribute>
 <attribute name="Modified" >2010-06-06T00:38:00-04:00</attribute>
-<attribute name="Name" >Creating an &quot;Internals&quot; note to contain utility notes</attribute>
+<attribute name="Name" >Creating an &quot;Internals&quot; note to contain utilities</attribute>
 <attribute name="ReadCount" >47</attribute>
-<attribute name="SelectionCount" >66</attribute>
+<attribute name="SelectionCount" >68</attribute>
 <attribute name="WindowPlace" >Rect[ 589 242 1214 855]</attribute>
 <attribute name="Xpos" >3</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1301,15 +1301,15 @@ The changes here add a new `id` attribute to the `&lt;section&gt;` element, and 
 </item>
 <item ID="3358589521" Creator="lmorchard" >
 <attribute name="Created" >2010-06-05T13:32:00-04:00</attribute>
-<attribute name="Modified" >2010-06-06T01:56:00-04:00</attribute>
+<attribute name="Modified" >2010-06-07T01:13:00-04:00</attribute>
 <attribute name="Name" >Summary</attribute>
-<attribute name="ReadCount" >12</attribute>
-<attribute name="SelectionCount" >20</attribute>
+<attribute name="ReadCount" >17</attribute>
+<attribute name="SelectionCount" >26</attribute>
 <attribute name="WindowPlace" >Rect[ 527 177 1145 763]</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <attribute name="id" >43</attribute>
-<text >In this tutorial, I walked you through the following in using Tinderbox:* outlining an article;* writing an article;* augmenting an outline with prototypes;* building and using HTML export templates.I hope that the end product from this tutorial turns out to be a useful tool for producing content for publishing on the web using Tinderbox. The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements—please share, especially if I can include them in a future revision of this tutorial! </text>
+<text >In this tutorial, I walked through the following in using Tinderbox:* outlining and writing an article;* augmenting article notes with prototypes;* building and using HTML export templates.The end product of this tutorial should hopefully turn out to be a starting point in producing content for the web using Tinderbox. The nice thing about the document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements—please share, especially if I can include them in a future revision of this tutorial! </text>
 <styles >
  <tstyle font="Monaco" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
 </styles>
@@ -1320,16 +1320,15 @@ The changes here add a new `id` attribute to the `&lt;section&gt;` element, and 
 \red0\green0\blue0;}
 {\info}
 \deftab720
-{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 In this tutorial, I walked you through the following in using Tinderbox:\par
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 In this tutorial, I walked through the following in using Tinderbox:\par
 \par
-}{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li1080\ri360\fi0\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 * outlining an article;\par
-* writing an article;\par
-* augmenting an outline with prototypes;\par
+}{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li1080\ri360\fi0\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 * outlining and writing an article;\par
+* augmenting article notes with prototypes;\par
 * building and using HTML export templates.\par
 }{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 \par
-I hope that the end product from this tutorial turns out to be a useful tool for producing content for publishing on the web using Tinderbox. \par
+The end product of this tutorial should hopefully turn out to be a starting point in producing content for the web using Tinderbox. \par
 \par
-The nice thing about the Tinderbox document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time you want to write an article: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.\par
+The nice thing about the document constructed during the course of this tutorial is that you don&apos;t need to start from scratch the next time: Just clear out the article and section content from the previous use, and use the prototypes and templates as a starting point for your next article.\par
 \par
 Along the way, as you learn more features of Tinderbox, you can continue to introduce incremental improvements\u8212 please share, especially if I can include them in a future revision of this tutorial! \par
 }}
@@ -1416,8 +1415,8 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2010-06-07T01:02:00-04:00</attribute>
 <attribute name="Name" >article.html</attribute>
-<attribute name="ReadCount" >91</attribute>
-<attribute name="SelectionCount" >76</attribute>
+<attribute name="ReadCount" >92</attribute>
+<attribute name="SelectionCount" >77</attribute>
 <attribute name="WindowPlace" >Rect[ 576 155 1152 629]</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1504,7 +1503,7 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 <attribute name="Modified" >2010-06-06T13:32:00-04:00</attribute>
 <attribute name="Name" >toc-section.html</attribute>
 <attribute name="ReadCount" >19</attribute>
-<attribute name="SelectionCount" >7</attribute>
+<attribute name="SelectionCount" >8</attribute>
 <attribute name="WindowPlace" >Rect[ 619 569 1319 869]</attribute>
 <attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -1526,6 +1525,30 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
 \tab ^endIf^\par
 &lt;/li&gt;\par
 }}
+</rtf>
+</item>
+<item ID="3358717235" Creator="lmorchard" >
+<attribute name="Created" >2010-06-06T14:35:00-04:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2010-06-06T14:35:00-04:00</attribute>
+<attribute name="Name" >plain.txt</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Xpos" >10.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<attribute name="id" >57</attribute>
+<text >^text^</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="12" height="0" ascent="0" color="#000000"  />
+</styles>
+<rtf >{\rtf1\mac
+{\fonttbl
+{\f0\fnil\fcharset77 Lucida Grande;}}
+{\colortbl
+\red0\green0\blue0;}
+{\info}
+\deftab720
+{\pard\plain\uc0\f0\fs24\cf0\ql\sb40\li360\ri360\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240 ^text^}}
 </rtf>
 </item>
 </item>
@@ -1696,7 +1719,6 @@ Along the way, as you learn more features of Tinderbox, you can continue to intr
    <SimplenotePassword > </SimplenotePassword>
 </preferences>
 <windows >
-<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 967 151 1407 607]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358537083 3358536541 3358536841 3358538101 "  />
-<window ID="3358538103" Creator="lmorchard" type="text" bounds="Rect[ 576 155 1152 629]" x="0" y="0" scale="1"  />
+<window ID="3358536108" Creator="lmorchard" type="outline" bounds="Rect[ 583 227 1023 683]" x="0" y="0" scale="5" expanded="3358536108 3358536123 3358536901 3358536842 3358537261 3358537262 3358537263 " collapsed="3358537083 3358536541 3358536841 3358538101 "  />
 </windows>
 </tinderbox>
